@@ -26,6 +26,7 @@ pt_file, wts_file = parse_args()
 
 # Initialize
 device = select_device('cpu')
+#device = select_device('cuda:0')
 # Load model
 model = torch.load(pt_file, map_location=device)['model'].float()  # load to FP32
 

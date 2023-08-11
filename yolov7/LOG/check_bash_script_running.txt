@@ -1,0 +1,3037 @@
+[08/10/2023-14:15:35] [TRT] [I] [MemUsageChange] Init CUDA: CPU +224, GPU +0, now: CPU 265, GPU 2759 (MiB)
+[08/10/2023-14:15:35] [TRT] [I] Loaded engine size: 21 MiB
+[08/10/2023-14:15:37] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +155, GPU +150, now: CPU 450, GPU 2966 (MiB)
+[08/10/2023-14:15:38] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +240, GPU +261, now: CPU 690, GPU 3227 (MiB)
+[08/10/2023-14:15:38] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +20, now: CPU 0, GPU 20 (MiB)
+[08/10/2023-14:15:38] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 669, GPU 3206 (MiB)
+[08/10/2023-14:15:38] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 669, GPU 3206 (MiB)
+[08/10/2023-14:15:38] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +32, now: CPU 0, GPU 52 (MiB)
+GST_ARGUS: Creating output stream
+CONSUMER: Waiting until producer is connected...
+GST_ARGUS: Available Sensor modes :
+GST_ARGUS: 3264 x 2464 FR = 21.000000 fps Duration = 47619048 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 3264 x 1848 FR = 28.000001 fps Duration = 35714284 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1920 x 1080 FR = 29.999999 fps Duration = 33333334 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1640 x 1232 FR = 29.999999 fps Duration = 33333334 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1280 x 720 FR = 59.999999 fps Duration = 16666667 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1280 x 720 FR = 120.000005 fps Duration = 8333333 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: Running with following settings:
+   Camera index = 0 
+   Camera mode  = 5 
+   Output Stream W = 1280 H = 720 
+   seconds to Run    = 0 
+   Frame Rate = 120.000005 
+GST_ARGUS: Setup Complete, Starting captures for 0 seconds
+GST_ARGUS: Starting repeat capture requests.
+CONSUMER: Producer has connected; continuing.
+bingding: data (3, 640, 640)
+bingding: prob (6001, 1, 1)
+batch size is 1
+Video name: output/raspberry_cam_from_drone_2023-08-10_14.15.39.avi . Frame size: width: 640 , height: 640 , FPS: 120
+inference: time->62.36ms, fps: 16.04, total fps: 0.00, frame obj: 1, total obj: 1
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 1.00, frame obj: 1, total obj: 2
+Running python script in foreground.
+inference: time->58.13ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 3
+Running python script in foreground.
+inference: time->58.24ms, fps: 17.17, total fps: 4.00, frame obj: 1, total obj: 4
+Running python script in foreground.
+inference: time->57.20ms, fps: 17.48, total fps: 4.00, frame obj: 1, total obj: 5
+Running python script in foreground.
+inference: time->58.02ms, fps: 17.23, total fps: 4.00, frame obj: 1, total obj: 6
+Running python script in foreground.
+inference: time->57.47ms, fps: 17.40, total fps: 4.00, frame obj: 1, total obj: 7
+Running python script in foreground.
+inference: time->59.83ms, fps: 16.71, total fps: 4.00, frame obj: 1, total obj: 8
+Running python script in foreground.
+inference: time->59.24ms, fps: 16.88, total fps: 4.00, frame obj: 1, total obj: 9
+Running python script in foreground.
+inference: time->57.44ms, fps: 17.41, total fps: 4.00, frame obj: 1, total obj: 10
+Running python script in foreground.
+inference: time->58.50ms, fps: 17.09, total fps: 3.00, frame obj: 1, total obj: 11
+Running python script in foreground.
+inference: time->58.34ms, fps: 17.14, total fps: 3.00, frame obj: 1, total obj: 12
+Running python script in foreground.
+inference: time->57.75ms, fps: 17.32, total fps: 3.00, frame obj: 1, total obj: 13
+Running python script in foreground.
+inference: time->58.15ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 14
+Running python script in foreground.
+inference: time->59.05ms, fps: 16.93, total fps: 3.00, frame obj: 1, total obj: 15
+Running python script in foreground.
+inference: time->58.79ms, fps: 17.01, total fps: 3.00, frame obj: 1, total obj: 16
+Running python script in foreground.
+inference: time->58.10ms, fps: 17.21, total fps: 3.00, frame obj: 1, total obj: 17
+Running python script in foreground.
+inference: time->58.99ms, fps: 16.95, total fps: 3.00, frame obj: 1, total obj: 18
+Running python script in foreground.
+inference: time->57.12ms, fps: 17.51, total fps: 3.00, frame obj: 1, total obj: 19
+Running python script in foreground.
+inference: time->57.54ms, fps: 17.38, total fps: 3.00, frame obj: 1, total obj: 20
+Running python script in foreground.
+inference: time->58.99ms, fps: 16.95, total fps: 3.00, frame obj: 1, total obj: 21
+Running python script in foreground.
+inference: time->57.93ms, fps: 17.26, total fps: 3.00, frame obj: 1, total obj: 22
+Running python script in foreground.
+inference: time->58.56ms, fps: 17.08, total fps: 3.00, frame obj: 1, total obj: 23
+Running python script in foreground.
+inference: time->58.07ms, fps: 17.22, total fps: 3.00, frame obj: 1, total obj: 24
+Running python script in foreground.
+inference: time->59.84ms, fps: 16.71, total fps: 3.00, frame obj: 1, total obj: 25
+Running python script in foreground.
+inference: time->57.65ms, fps: 17.34, total fps: 3.00, frame obj: 1, total obj: 26
+Running python script in foreground.
+inference: time->57.56ms, fps: 17.37, total fps: 3.00, frame obj: 1, total obj: 27
+Running python script in foreground.
+inference: time->56.70ms, fps: 17.64, total fps: 3.00, frame obj: 1, total obj: 28
+Running python script in foreground.
+inference: time->58.38ms, fps: 17.13, total fps: 3.00, frame obj: 1, total obj: 29
+Running python script in foreground.
+inference: time->58.67ms, fps: 17.05, total fps: 3.00, frame obj: 1, total obj: 30
+Running python script in foreground.
+inference: time->58.93ms, fps: 16.97, total fps: 3.00, frame obj: 1, total obj: 31
+Running python script in foreground.
+inference: time->58.70ms, fps: 17.04, total fps: 3.00, frame obj: 1, total obj: 32
+Running python script in foreground.
+inference: time->57.26ms, fps: 17.46, total fps: 3.00, frame obj: 1, total obj: 33
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 34
+Running python script in foreground.
+inference: time->54.20ms, fps: 18.45, total fps: 4.00, frame obj: 1, total obj: 35
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 4.00, frame obj: 1, total obj: 36
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 37
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 4.00, frame obj: 1, total obj: 38
+Running python script in foreground.
+inference: time->54.32ms, fps: 18.41, total fps: 4.00, frame obj: 1, total obj: 39
+Running python script in foreground.
+inference: time->56.13ms, fps: 17.81, total fps: 4.00, frame obj: 1, total obj: 40
+Running python script in foreground.
+inference: time->54.20ms, fps: 18.45, total fps: 3.00, frame obj: 1, total obj: 41
+Running python script in foreground.
+inference: time->55.39ms, fps: 18.05, total fps: 4.00, frame obj: 1, total obj: 42
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 3.00, frame obj: 1, total obj: 43
+Running python script in foreground.
+inference: time->55.18ms, fps: 18.12, total fps: 4.00, frame obj: 1, total obj: 44
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 45
+Running python script in foreground.
+inference: time->54.43ms, fps: 18.37, total fps: 4.00, frame obj: 1, total obj: 46
+Running python script in foreground.
+inference: time->55.04ms, fps: 18.17, total fps: 4.00, frame obj: 1, total obj: 47
+Running python script in foreground.
+inference: time->57.84ms, fps: 17.29, total fps: 3.00, frame obj: 1, total obj: 48
+Running python script in foreground.
+inference: time->60.84ms, fps: 16.44, total fps: 3.00, frame obj: 1, total obj: 49
+Running python script in foreground.
+inference: time->61.29ms, fps: 16.32, total fps: 3.00, frame obj: 1, total obj: 50
+Running python script in foreground.
+inference: time->57.12ms, fps: 17.51, total fps: 3.00, frame obj: 1, total obj: 51
+Running python script in foreground.
+inference: time->63.12ms, fps: 15.84, total fps: 3.00, frame obj: 1, total obj: 52
+Running python script in foreground.
+inference: time->56.19ms, fps: 17.80, total fps: 3.00, frame obj: 1, total obj: 53
+Running python script in foreground.
+inference: time->55.87ms, fps: 17.90, total fps: 3.00, frame obj: 1, total obj: 54
+Running python script in foreground.
+inference: time->54.41ms, fps: 18.38, total fps: 3.00, frame obj: 1, total obj: 55
+Running python script in foreground.
+inference: time->58.32ms, fps: 17.15, total fps: 4.00, frame obj: 1, total obj: 56
+Running python script in foreground.
+inference: time->55.70ms, fps: 17.95, total fps: 3.00, frame obj: 1, total obj: 57
+Running python script in foreground.
+inference: time->56.79ms, fps: 17.61, total fps: 4.00, frame obj: 1, total obj: 58
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 59
+Running python script in foreground.
+inference: time->57.64ms, fps: 17.35, total fps: 4.00, frame obj: 1, total obj: 60
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 61
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 4.00, frame obj: 1, total obj: 62
+Running python script in foreground.
+inference: time->59.43ms, fps: 16.83, total fps: 3.00, frame obj: 1, total obj: 63
+Running python script in foreground.
+inference: time->56.75ms, fps: 17.62, total fps: 3.00, frame obj: 1, total obj: 64
+Running python script in foreground.
+inference: time->60.51ms, fps: 16.53, total fps: 3.00, frame obj: 1, total obj: 65
+Running python script in foreground.
+inference: time->59.58ms, fps: 16.78, total fps: 3.00, frame obj: 1, total obj: 66
+Running python script in foreground.
+inference: time->54.40ms, fps: 18.38, total fps: 3.00, frame obj: 1, total obj: 67
+Running python script in foreground.
+inference: time->54.44ms, fps: 18.37, total fps: 4.00, frame obj: 1, total obj: 68
+Running python script in foreground.
+inference: time->54.34ms, fps: 18.40, total fps: 4.00, frame obj: 1, total obj: 69
+Running python script in foreground.
+inference: time->55.39ms, fps: 18.05, total fps: 4.00, frame obj: 1, total obj: 70
+Running python script in foreground.
+inference: time->59.38ms, fps: 16.84, total fps: 3.00, frame obj: 1, total obj: 71
+Running python script in foreground.
+inference: time->59.06ms, fps: 16.93, total fps: 3.00, frame obj: 1, total obj: 72
+Running python script in foreground.
+inference: time->59.02ms, fps: 16.94, total fps: 3.00, frame obj: 1, total obj: 73
+Running python script in foreground.
+inference: time->54.31ms, fps: 18.41, total fps: 4.00, frame obj: 1, total obj: 74
+Running python script in foreground.
+inference: time->55.52ms, fps: 18.01, total fps: 4.00, frame obj: 1, total obj: 75
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 76
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 77
+Running python script in foreground.
+inference: time->54.44ms, fps: 18.37, total fps: 3.00, frame obj: 2, total obj: 79
+Running python script in foreground.
+inference: time->58.44ms, fps: 17.11, total fps: 3.00, frame obj: 2, total obj: 81
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 82
+Running python script in foreground.
+inference: time->58.10ms, fps: 17.21, total fps: 3.00, frame obj: 1, total obj: 83
+Running python script in foreground.
+inference: time->58.59ms, fps: 17.07, total fps: 3.00, frame obj: 1, total obj: 84
+Running python script in foreground.
+inference: time->58.25ms, fps: 17.17, total fps: 3.00, frame obj: 1, total obj: 85
+Running python script in foreground.
+inference: time->58.48ms, fps: 17.10, total fps: 3.00, frame obj: 1, total obj: 86
+Running python script in foreground.
+inference: time->58.04ms, fps: 17.23, total fps: 3.00, frame obj: 2, total obj: 88
+Running python script in foreground.
+inference: time->58.74ms, fps: 17.03, total fps: 4.00, frame obj: 3, total obj: 91
+Running python script in foreground.
+inference: time->58.61ms, fps: 17.06, total fps: 3.00, frame obj: 2, total obj: 93
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 95
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 97
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 3.00, frame obj: 2, total obj: 99
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 3.00, frame obj: 4, total obj: 103
+Running python script in foreground.
+inference: time->58.83ms, fps: 17.00, total fps: 3.00, frame obj: 3, total obj: 106
+Running python script in foreground.
+inference: time->57.64ms, fps: 17.35, total fps: 3.00, frame obj: 1, total obj: 107
+Running python script in foreground.
+inference: time->58.58ms, fps: 17.07, total fps: 3.00, frame obj: 3, total obj: 110
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 111
+Running python script in foreground.
+inference: time->55.87ms, fps: 17.90, total fps: 3.00, frame obj: 0, total obj: 111
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 112
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 113
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 115
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 3.00, frame obj: 1, total obj: 116
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 118
+Running python script in foreground.
+inference: time->55.46ms, fps: 18.03, total fps: 3.00, frame obj: 1, total obj: 119
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 120
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 121
+Running python script in foreground.
+inference: time->54.43ms, fps: 18.37, total fps: 3.00, frame obj: 1, total obj: 122
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 4.00, frame obj: 1, total obj: 123
+Running python script in foreground.
+inference: time->55.49ms, fps: 18.02, total fps: 4.00, frame obj: 1, total obj: 124
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 125
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 4.00, frame obj: 0, total obj: 125
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 127
+Running python script in foreground.
+inference: time->55.96ms, fps: 17.87, total fps: 3.00, frame obj: 1, total obj: 128
+Running python script in foreground.
+inference: time->54.43ms, fps: 18.37, total fps: 3.00, frame obj: 1, total obj: 129
+Running python script in foreground.
+inference: time->55.80ms, fps: 17.92, total fps: 4.00, frame obj: 1, total obj: 130
+Running python script in foreground.
+inference: time->54.95ms, fps: 18.20, total fps: 3.00, frame obj: 2, total obj: 132
+Running python script in foreground.
+inference: time->54.82ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 133
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 135
+Running python script in foreground.
+inference: time->55.30ms, fps: 18.08, total fps: 3.00, frame obj: 2, total obj: 137
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 1, total obj: 138
+Running python script in foreground.
+inference: time->56.48ms, fps: 17.70, total fps: 4.00, frame obj: 2, total obj: 140
+Running python script in foreground.
+inference: time->54.43ms, fps: 18.37, total fps: 3.00, frame obj: 2, total obj: 142
+Running python script in foreground.
+inference: time->55.31ms, fps: 18.08, total fps: 3.00, frame obj: 2, total obj: 144
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.34, total fps: 4.00, frame obj: 1, total obj: 145
+Running python script in foreground.
+inference: time->55.72ms, fps: 17.95, total fps: 3.00, frame obj: 1, total obj: 146
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 148
+Running python script in foreground.
+inference: time->55.97ms, fps: 17.87, total fps: 3.00, frame obj: 1, total obj: 149
+Running python script in foreground.
+inference: time->54.36ms, fps: 18.40, total fps: 3.00, frame obj: 1, total obj: 150
+Running python script in foreground.
+inference: time->55.50ms, fps: 18.02, total fps: 4.00, frame obj: 2, total obj: 152
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 153
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 155
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 157
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 3, total obj: 160
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 162
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 164
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 3, total obj: 167
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 169
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 170
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 171
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 173
+Running python script in foreground.
+inference: time->55.74ms, fps: 17.94, total fps: 3.00, frame obj: 2, total obj: 175
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 3, total obj: 178
+Running python script in foreground.
+inference: time->55.58ms, fps: 17.99, total fps: 3.00, frame obj: 2, total obj: 180
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 1, total obj: 181
+Running python script in foreground.
+inference: time->55.97ms, fps: 17.87, total fps: 4.00, frame obj: 2, total obj: 183
+Running python script in foreground.
+inference: time->55.93ms, fps: 17.88, total fps: 3.00, frame obj: 2, total obj: 185
+Running python script in foreground.
+inference: time->55.98ms, fps: 17.86, total fps: 3.00, frame obj: 1, total obj: 186
+Running python script in foreground.
+inference: time->54.98ms, fps: 18.19, total fps: 4.00, frame obj: 2, total obj: 188
+Running python script in foreground.
+inference: time->55.73ms, fps: 17.94, total fps: 4.00, frame obj: 2, total obj: 190
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 3.00, frame obj: 2, total obj: 192
+Running python script in foreground.
+inference: time->56.21ms, fps: 17.79, total fps: 4.00, frame obj: 2, total obj: 194
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 195
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 197
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 199
+Running python script in foreground.
+inference: time->55.58ms, fps: 17.99, total fps: 4.00, frame obj: 2, total obj: 201
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 203
+Running python script in foreground.
+inference: time->55.76ms, fps: 17.93, total fps: 4.00, frame obj: 2, total obj: 205
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 4.00, frame obj: 2, total obj: 207
+Running python script in foreground.
+inference: time->56.12ms, fps: 17.82, total fps: 4.00, frame obj: 2, total obj: 209
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 211
+Running python script in foreground.
+inference: time->55.66ms, fps: 17.97, total fps: 4.00, frame obj: 3, total obj: 214
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 216
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 218
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 220
+Running python script in foreground.
+inference: time->56.84ms, fps: 17.59, total fps: 4.00, frame obj: 2, total obj: 222
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 224
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 225
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 226
+Running python script in foreground.
+inference: time->56.54ms, fps: 17.69, total fps: 4.00, frame obj: 1, total obj: 227
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 229
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 231
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 233
+Running python script in foreground.
+inference: time->55.60ms, fps: 17.99, total fps: 4.00, frame obj: 1, total obj: 234
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 235
+Running python script in foreground.
+inference: time->54.48ms, fps: 18.36, total fps: 4.00, frame obj: 2, total obj: 237
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 239
+Running python script in foreground.
+inference: time->54.84ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 241
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 243
+Running python script in foreground.
+inference: time->55.20ms, fps: 18.11, total fps: 4.00, frame obj: 2, total obj: 245
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 3, total obj: 248
+Running python script in foreground.
+inference: time->55.78ms, fps: 17.93, total fps: 4.00, frame obj: 2, total obj: 250
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 3, total obj: 253
+Running python script in foreground.
+inference: time->55.43ms, fps: 18.04, total fps: 4.00, frame obj: 2, total obj: 255
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 257
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 259
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 260
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 4.00, frame obj: 3, total obj: 263
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 3.00, frame obj: 2, total obj: 265
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 267
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 4.00, frame obj: 2, total obj: 269
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 270
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 4.00, frame obj: 2, total obj: 272
+Running python script in foreground.
+inference: time->56.92ms, fps: 17.57, total fps: 4.00, frame obj: 2, total obj: 274
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 276
+Running python script in foreground.
+inference: time->55.89ms, fps: 17.89, total fps: 4.00, frame obj: 2, total obj: 278
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 279
+Running python script in foreground.
+inference: time->56.21ms, fps: 17.79, total fps: 4.00, frame obj: 2, total obj: 281
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 283
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 4.00, frame obj: 2, total obj: 285
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 287
+Running python script in foreground.
+inference: time->55.41ms, fps: 18.05, total fps: 4.00, frame obj: 3, total obj: 290
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 292
+Running python script in foreground.
+inference: time->55.38ms, fps: 18.06, total fps: 4.00, frame obj: 2, total obj: 294
+Running python script in foreground.
+inference: time->54.45ms, fps: 18.37, total fps: 4.00, frame obj: 2, total obj: 296
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 298
+Running python script in foreground.
+inference: time->54.91ms, fps: 18.21, total fps: 3.00, frame obj: 1, total obj: 299
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 301
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 303
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 4, total obj: 307
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 309
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 311
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 2, total obj: 313
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 315
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 3, total obj: 318
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 320
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 322
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 323
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 325
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 327
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 328
+Running python script in foreground.
+inference: time->55.90ms, fps: 17.89, total fps: 4.00, frame obj: 3, total obj: 331
+Running python script in foreground.
+inference: time->54.82ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 333
+Running python script in foreground.
+inference: time->56.21ms, fps: 17.79, total fps: 4.00, frame obj: 2, total obj: 335
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 337
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 339
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 341
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 343
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 345
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 347
+Running python script in foreground.
+inference: time->55.30ms, fps: 18.08, total fps: 4.00, frame obj: 2, total obj: 349
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 351
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 353
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 355
+Running python script in foreground.
+inference: time->55.81ms, fps: 17.92, total fps: 4.00, frame obj: 2, total obj: 357
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 359
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 361
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 363
+Running python script in foreground.
+inference: time->55.29ms, fps: 18.09, total fps: 4.00, frame obj: 2, total obj: 365
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 367
+Running python script in foreground.
+inference: time->55.41ms, fps: 18.05, total fps: 4.00, frame obj: 2, total obj: 369
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 371
+Running python script in foreground.
+inference: time->55.59ms, fps: 17.99, total fps: 4.00, frame obj: 1, total obj: 372
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 374
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 4.00, frame obj: 2, total obj: 376
+Running python script in foreground.
+inference: time->55.11ms, fps: 18.14, total fps: 4.00, frame obj: 2, total obj: 378
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 380
+Running python script in foreground.
+inference: time->55.23ms, fps: 18.11, total fps: 4.00, frame obj: 2, total obj: 382
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 3, total obj: 385
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 387
+Running python script in foreground.
+inference: time->55.68ms, fps: 17.96, total fps: 4.00, frame obj: 1, total obj: 388
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 390
+Running python script in foreground.
+inference: time->55.75ms, fps: 17.94, total fps: 4.00, frame obj: 2, total obj: 392
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 4.00, frame obj: 1, total obj: 393
+Running python script in foreground.
+inference: time->55.69ms, fps: 17.96, total fps: 4.00, frame obj: 1, total obj: 394
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 396
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 398
+Running python script in foreground.
+inference: time->55.76ms, fps: 17.93, total fps: 4.00, frame obj: 1, total obj: 399
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 400
+Running python script in foreground.
+inference: time->55.82ms, fps: 17.91, total fps: 4.00, frame obj: 2, total obj: 402
+Running python script in foreground.
+inference: time->54.34ms, fps: 18.40, total fps: 4.00, frame obj: 2, total obj: 404
+Running python script in foreground.
+inference: time->55.65ms, fps: 17.97, total fps: 4.00, frame obj: 2, total obj: 406
+Running python script in foreground.
+inference: time->54.37ms, fps: 18.39, total fps: 3.00, frame obj: 1, total obj: 407
+Running python script in foreground.
+inference: time->55.76ms, fps: 17.93, total fps: 4.00, frame obj: 2, total obj: 409
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 411
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 413
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 414
+Running python script in foreground.
+inference: time->54.84ms, fps: 18.23, total fps: 4.00, frame obj: 1, total obj: 415
+Running python script in foreground.
+inference: time->54.39ms, fps: 18.39, total fps: 4.00, frame obj: 2, total obj: 417
+Running python script in foreground.
+inference: time->55.06ms, fps: 18.16, total fps: 4.00, frame obj: 3, total obj: 420
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 422
+Running python script in foreground.
+inference: time->55.52ms, fps: 18.01, total fps: 4.00, frame obj: 2, total obj: 424
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 426
+Running python script in foreground.
+inference: time->55.47ms, fps: 18.03, total fps: 3.00, frame obj: 2, total obj: 428
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 430
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 432
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 433
+Running python script in foreground.
+inference: time->55.65ms, fps: 17.97, total fps: 4.00, frame obj: 2, total obj: 435
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 437
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 439
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 441
+Running python script in foreground.
+inference: time->55.49ms, fps: 18.02, total fps: 4.00, frame obj: 1, total obj: 442
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 444
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 446
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 448
+Running python script in foreground.
+inference: time->54.44ms, fps: 18.37, total fps: 4.00, frame obj: 1, total obj: 449
+Running python script in foreground.
+inference: time->55.59ms, fps: 17.99, total fps: 4.00, frame obj: 3, total obj: 452
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 453
+Running python script in foreground.
+inference: time->55.01ms, fps: 18.18, total fps: 4.00, frame obj: 2, total obj: 455
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 457
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 4.00, frame obj: 2, total obj: 459
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 461
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 463
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 3.00, frame obj: 3, total obj: 466
+Running python script in foreground.
+inference: time->55.36ms, fps: 18.06, total fps: 4.00, frame obj: 2, total obj: 468
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 470
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 472
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 473
+Running python script in foreground.
+inference: time->55.90ms, fps: 17.89, total fps: 4.00, frame obj: 2, total obj: 475
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 477
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 479
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 481
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 483
+Running python script in foreground.
+inference: time->56.88ms, fps: 17.58, total fps: 4.00, frame obj: 1, total obj: 484
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 486
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 488
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 489
+Running python script in foreground.
+inference: time->55.11ms, fps: 18.14, total fps: 4.00, frame obj: 2, total obj: 491
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 493
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 495
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 497
+Running python script in foreground.
+inference: time->55.40ms, fps: 18.05, total fps: 4.00, frame obj: 1, total obj: 498
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 500
+Running python script in foreground.
+inference: time->55.77ms, fps: 17.93, total fps: 4.00, frame obj: 2, total obj: 502
+Running python script in foreground.
+inference: time->55.10ms, fps: 18.15, total fps: 4.00, frame obj: 2, total obj: 504
+Running python script in foreground.
+inference: time->55.94ms, fps: 17.87, total fps: 4.00, frame obj: 2, total obj: 506
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 4.00, frame obj: 2, total obj: 508
+Running python script in foreground.
+inference: time->55.95ms, fps: 17.87, total fps: 4.00, frame obj: 3, total obj: 511
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 513
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 4.00, frame obj: 2, total obj: 515
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 516
+Running python script in foreground.
+inference: time->55.03ms, fps: 18.17, total fps: 4.00, frame obj: 2, total obj: 518
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 520
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 521
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 3, total obj: 524
+Running python script in foreground.
+inference: time->55.47ms, fps: 18.03, total fps: 4.00, frame obj: 2, total obj: 526
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 528
+Running python script in foreground.
+inference: time->55.71ms, fps: 17.95, total fps: 4.00, frame obj: 2, total obj: 530
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 532
+Running python script in foreground.
+inference: time->56.08ms, fps: 17.83, total fps: 4.00, frame obj: 3, total obj: 535
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 537
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 539
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 3.00, frame obj: 2, total obj: 541
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 4.00, frame obj: 2, total obj: 543
+Running python script in foreground.
+inference: time->55.27ms, fps: 18.09, total fps: 4.00, frame obj: 1, total obj: 544
+Running python script in foreground.
+inference: time->55.01ms, fps: 18.18, total fps: 4.00, frame obj: 2, total obj: 546
+Running python script in foreground.
+inference: time->56.15ms, fps: 17.81, total fps: 4.00, frame obj: 1, total obj: 547
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 4.00, frame obj: 1, total obj: 548
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 550
+Running python script in foreground.
+inference: time->55.36ms, fps: 18.06, total fps: 4.00, frame obj: 2, total obj: 552
+Running python script in foreground.
+inference: time->55.54ms, fps: 18.01, total fps: 4.00, frame obj: 2, total obj: 554
+Running python script in foreground.
+inference: time->54.48ms, fps: 18.36, total fps: 3.00, frame obj: 2, total obj: 556
+Running python script in foreground.
+inference: time->55.53ms, fps: 18.01, total fps: 4.00, frame obj: 3, total obj: 559
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 3.00, frame obj: 0, total obj: 559
+Running python script in foreground.
+inference: time->55.41ms, fps: 18.05, total fps: 4.00, frame obj: 2, total obj: 561
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 563
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 4.00, frame obj: 2, total obj: 565
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 566
+Running python script in foreground.
+inference: time->55.81ms, fps: 17.92, total fps: 4.00, frame obj: 2, total obj: 568
+Running python script in foreground.
+inference: time->54.41ms, fps: 18.38, total fps: 4.00, frame obj: 2, total obj: 570
+Running python script in foreground.
+inference: time->55.31ms, fps: 18.08, total fps: 4.00, frame obj: 2, total obj: 572
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 574
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 4.00, frame obj: 2, total obj: 576
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 3.00, frame obj: 2, total obj: 578
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 580
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 582
+Running python script in foreground.
+inference: time->55.79ms, fps: 17.92, total fps: 4.00, frame obj: 2, total obj: 584
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 585
+Running python script in foreground.
+inference: time->55.96ms, fps: 17.87, total fps: 4.00, frame obj: 2, total obj: 587
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 589
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 591
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 4.00, frame obj: 3, total obj: 594
+Running python script in foreground.
+inference: time->56.41ms, fps: 17.73, total fps: 4.00, frame obj: 2, total obj: 596
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 597
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 599
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 600
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 4.00, frame obj: 1, total obj: 601
+Running python script in foreground.
+inference: time->55.65ms, fps: 17.97, total fps: 4.00, frame obj: 1, total obj: 602
+Running python script in foreground.
+inference: time->55.02ms, fps: 18.18, total fps: 4.00, frame obj: 2, total obj: 604
+Running python script in foreground.
+inference: time->56.31ms, fps: 17.76, total fps: 4.00, frame obj: 2, total obj: 606
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 608
+Running python script in foreground.
+inference: time->55.69ms, fps: 17.96, total fps: 4.00, frame obj: 2, total obj: 610
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 611
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 613
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 3.00, frame obj: 1, total obj: 614
+Running python script in foreground.
+inference: time->55.60ms, fps: 17.99, total fps: 4.00, frame obj: 2, total obj: 616
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 618
+Running python script in foreground.
+inference: time->56.11ms, fps: 17.82, total fps: 4.00, frame obj: 2, total obj: 620
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 622
+Running python script in foreground.
+inference: time->55.88ms, fps: 17.89, total fps: 4.00, frame obj: 1, total obj: 623
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 625
+Running python script in foreground.
+inference: time->55.31ms, fps: 18.08, total fps: 4.00, frame obj: 2, total obj: 627
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 629
+Running python script in foreground.
+inference: time->55.48ms, fps: 18.03, total fps: 4.00, frame obj: 2, total obj: 631
+Running python script in foreground.
+inference: time->54.91ms, fps: 18.21, total fps: 4.00, frame obj: 1, total obj: 632
+Running python script in foreground.
+inference: time->54.96ms, fps: 18.20, total fps: 4.00, frame obj: 1, total obj: 633
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 3.00, frame obj: 2, total obj: 635
+Running python script in foreground.
+inference: time->56.12ms, fps: 17.82, total fps: 4.00, frame obj: 0, total obj: 635
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 637
+Running python script in foreground.
+inference: time->55.35ms, fps: 18.07, total fps: 4.00, frame obj: 2, total obj: 639
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 3.00, frame obj: 2, total obj: 641
+Running python script in foreground.
+inference: time->54.93ms, fps: 18.21, total fps: 4.00, frame obj: 2, total obj: 643
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 644
+Running python script in foreground.
+inference: time->55.61ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 646
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 648
+Running python script in foreground.
+inference: time->54.95ms, fps: 18.20, total fps: 4.00, frame obj: 2, total obj: 650
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 652
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 654
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 656
+Running python script in foreground.
+inference: time->55.46ms, fps: 18.03, total fps: 4.00, frame obj: 2, total obj: 658
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 4.00, frame obj: 3, total obj: 661
+Running python script in foreground.
+inference: time->56.13ms, fps: 17.82, total fps: 4.00, frame obj: 2, total obj: 663
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 4.00, frame obj: 2, total obj: 665
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 667
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 4.00, frame obj: 1, total obj: 668
+Running python script in foreground.
+inference: time->55.31ms, fps: 18.08, total fps: 4.00, frame obj: 2, total obj: 670
+Running python script in foreground.
+inference: time->54.84ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 672
+Running python script in foreground.
+inference: time->56.00ms, fps: 17.86, total fps: 4.00, frame obj: 2, total obj: 674
+Running python script in foreground.
+inference: time->54.45ms, fps: 18.37, total fps: 4.00, frame obj: 2, total obj: 676
+Running python script in foreground.
+inference: time->55.38ms, fps: 18.06, total fps: 4.00, frame obj: 2, total obj: 678
+Running python script in foreground.
+inference: time->54.37ms, fps: 18.39, total fps: 4.00, frame obj: 2, total obj: 680
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 682
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 3, total obj: 685
+Running python script in foreground.
+inference: time->56.08ms, fps: 17.83, total fps: 4.00, frame obj: 2, total obj: 687
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 3.00, frame obj: 2, total obj: 689
+Running python script in foreground.
+inference: time->55.35ms, fps: 18.07, total fps: 4.00, frame obj: 2, total obj: 691
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 3, total obj: 694
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 696
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 697
+Running python script in foreground.
+inference: time->55.67ms, fps: 17.96, total fps: 4.00, frame obj: 2, total obj: 699
+Running python script in foreground.
+inference: time->55.00ms, fps: 18.18, total fps: 3.00, frame obj: 3, total obj: 702
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 704
+Running python script in foreground.
+inference: time->54.94ms, fps: 18.20, total fps: 4.00, frame obj: 2, total obj: 706
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 708
+Running python script in foreground.
+inference: time->55.57ms, fps: 17.99, total fps: 4.00, frame obj: 2, total obj: 710
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 712
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 713
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 715
+Running python script in foreground.
+inference: time->56.13ms, fps: 17.81, total fps: 4.00, frame obj: 3, total obj: 718
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 720
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 3.00, frame obj: 2, total obj: 722
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 724
+Running python script in foreground.
+inference: time->55.03ms, fps: 18.17, total fps: 4.00, frame obj: 2, total obj: 726
+Running python script in foreground.
+inference: time->56.36ms, fps: 17.74, total fps: 3.00, frame obj: 2, total obj: 728
+Running python script in foreground.
+inference: time->55.36ms, fps: 18.06, total fps: 4.00, frame obj: 2, total obj: 730
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 4.00, frame obj: 3, total obj: 733
+Running python script in foreground.
+inference: time->54.82ms, fps: 18.24, total fps: 4.00, frame obj: 2, total obj: 735
+Running python script in foreground.
+inference: time->54.97ms, fps: 18.19, total fps: 3.00, frame obj: 2, total obj: 737
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 739
+Running python script in foreground.
+inference: time->55.49ms, fps: 18.02, total fps: 4.00, frame obj: 1, total obj: 740
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 742
+Running python script in foreground.
+inference: time->55.46ms, fps: 18.03, total fps: 4.00, frame obj: 2, total obj: 744
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 4.00, frame obj: 2, total obj: 746
+Running python script in foreground.
+inference: time->55.42ms, fps: 18.04, total fps: 4.00, frame obj: 2, total obj: 748
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 750
+Running python script in foreground.
+inference: time->55.68ms, fps: 17.96, total fps: 4.00, frame obj: 2, total obj: 752
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 4.00, frame obj: 3, total obj: 755
+Running python script in foreground.
+inference: time->56.56ms, fps: 17.68, total fps: 4.00, frame obj: 1, total obj: 756
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 758
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 760
+Running python script in foreground.
+inference: time->55.66ms, fps: 17.97, total fps: 4.00, frame obj: 2, total obj: 762
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 763
+Running python script in foreground.
+inference: time->54.95ms, fps: 18.20, total fps: 4.00, frame obj: 2, total obj: 765
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 767
+Running python script in foreground.
+inference: time->55.66ms, fps: 17.97, total fps: 4.00, frame obj: 2, total obj: 769
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 771
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 773
+Running python script in foreground.
+inference: time->56.51ms, fps: 17.70, total fps: 4.00, frame obj: 2, total obj: 775
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 777
+Running python script in foreground.
+inference: time->54.96ms, fps: 18.20, total fps: 4.00, frame obj: 2, total obj: 779
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 781
+Running python script in foreground.
+inference: time->55.31ms, fps: 18.08, total fps: 4.00, frame obj: 2, total obj: 783
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 785
+Running python script in foreground.
+inference: time->55.47ms, fps: 18.03, total fps: 4.00, frame obj: 1, total obj: 786
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 788
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 790
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 792
+Running python script in foreground.
+inference: time->55.28ms, fps: 18.09, total fps: 4.00, frame obj: 2, total obj: 794
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 795
+Running python script in foreground.
+inference: time->54.94ms, fps: 18.20, total fps: 4.00, frame obj: 1, total obj: 796
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 797
+Running python script in foreground.
+inference: time->55.52ms, fps: 18.01, total fps: 4.00, frame obj: 2, total obj: 799
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 4.00, frame obj: 2, total obj: 801
+Running python script in foreground.
+inference: time->57.60ms, fps: 17.36, total fps: 4.00, frame obj: 1, total obj: 802
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 803
+Running python script in foreground.
+inference: time->55.41ms, fps: 18.05, total fps: 4.00, frame obj: 3, total obj: 806
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 808
+Running python script in foreground.
+inference: time->55.25ms, fps: 18.10, total fps: 4.00, frame obj: 2, total obj: 810
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 812
+Running python script in foreground.
+inference: time->55.13ms, fps: 18.14, total fps: 4.00, frame obj: 2, total obj: 814
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 816
+Running python script in foreground.
+inference: time->56.68ms, fps: 17.64, total fps: 4.00, frame obj: 1, total obj: 817
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 818
+Running python script in foreground.
+inference: time->55.28ms, fps: 18.09, total fps: 4.00, frame obj: 2, total obj: 820
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 822
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 823
+Running python script in foreground.
+inference: time->56.59ms, fps: 17.67, total fps: 3.00, frame obj: 3, total obj: 826
+Running python script in foreground.
+inference: time->55.19ms, fps: 18.12, total fps: 3.00, frame obj: 2, total obj: 828
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 829
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 831
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 833
+Running python script in foreground.
+inference: time->55.80ms, fps: 17.92, total fps: 4.00, frame obj: 1, total obj: 834
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 835
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 837
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 839
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 841
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 843
+Running python script in foreground.
+inference: time->55.03ms, fps: 18.17, total fps: 4.00, frame obj: 1, total obj: 844
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 846
+Running python script in foreground.
+inference: time->55.96ms, fps: 17.87, total fps: 4.00, frame obj: 2, total obj: 848
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 850
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 4.00, frame obj: 1, total obj: 851
+Running python script in foreground.
+inference: time->54.40ms, fps: 18.38, total fps: 4.00, frame obj: 2, total obj: 853
+Running python script in foreground.
+inference: time->55.72ms, fps: 17.95, total fps: 4.00, frame obj: 1, total obj: 854
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 856
+Running python script in foreground.
+inference: time->57.63ms, fps: 17.35, total fps: 4.00, frame obj: 2, total obj: 858
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 859
+Running python script in foreground.
+inference: time->55.26ms, fps: 18.10, total fps: 4.00, frame obj: 2, total obj: 861
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 863
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 865
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 867
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 869
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 871
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 873
+Running python script in foreground.
+inference: time->56.66ms, fps: 17.65, total fps: 4.00, frame obj: 2, total obj: 875
+Running python script in foreground.
+inference: time->54.48ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 877
+Running python script in foreground.
+inference: time->55.50ms, fps: 18.02, total fps: 4.00, frame obj: 2, total obj: 879
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 880
+Running python script in foreground.
+inference: time->55.66ms, fps: 17.97, total fps: 4.00, frame obj: 2, total obj: 882
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 883
+Running python script in foreground.
+inference: time->55.54ms, fps: 18.00, total fps: 4.00, frame obj: 2, total obj: 885
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 887
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 889
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 890
+Running python script in foreground.
+inference: time->56.23ms, fps: 17.78, total fps: 4.00, frame obj: 2, total obj: 892
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 894
+Running python script in foreground.
+inference: time->54.42ms, fps: 18.37, total fps: 4.00, frame obj: 1, total obj: 895
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 896
+Running python script in foreground.
+inference: time->54.35ms, fps: 18.40, total fps: 3.00, frame obj: 1, total obj: 897
+Running python script in foreground.
+inference: time->55.71ms, fps: 17.95, total fps: 4.00, frame obj: 1, total obj: 898
+Running python script in foreground.
+inference: time->54.45ms, fps: 18.36, total fps: 3.00, frame obj: 2, total obj: 900
+Running python script in foreground.
+inference: time->55.53ms, fps: 18.01, total fps: 4.00, frame obj: 2, total obj: 902
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 904
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 906
+Running python script in foreground.
+inference: time->54.41ms, fps: 18.38, total fps: 4.00, frame obj: 2, total obj: 908
+Running python script in foreground.
+inference: time->55.44ms, fps: 18.04, total fps: 4.00, frame obj: 2, total obj: 910
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 4.00, frame obj: 2, total obj: 912
+Running python script in foreground.
+inference: time->55.40ms, fps: 18.05, total fps: 4.00, frame obj: 2, total obj: 914
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 916
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 917
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 919
+Running python script in foreground.
+inference: time->55.42ms, fps: 18.04, total fps: 3.00, frame obj: 2, total obj: 921
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 923
+Running python script in foreground.
+inference: time->55.23ms, fps: 18.11, total fps: 4.00, frame obj: 2, total obj: 925
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 926
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 928
+Running python script in foreground.
+inference: time->56.64ms, fps: 17.65, total fps: 4.00, frame obj: 2, total obj: 930
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 932
+Running python script in foreground.
+inference: time->55.99ms, fps: 17.86, total fps: 4.00, frame obj: 2, total obj: 934
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.27, total fps: 3.00, frame obj: 2, total obj: 936
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 938
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 940
+Running python script in foreground.
+inference: time->56.41ms, fps: 17.73, total fps: 4.00, frame obj: 2, total obj: 942
+Running python script in foreground.
+inference: time->54.48ms, fps: 18.36, total fps: 3.00, frame obj: 2, total obj: 944
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.27, total fps: 4.00, frame obj: 3, total obj: 947
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 3.00, frame obj: 3, total obj: 950
+Running python script in foreground.
+inference: time->55.47ms, fps: 18.03, total fps: 4.00, frame obj: 2, total obj: 952
+Running python script in foreground.
+inference: time->54.45ms, fps: 18.36, total fps: 3.00, frame obj: 3, total obj: 955
+Running python script in foreground.
+inference: time->55.35ms, fps: 18.07, total fps: 4.00, frame obj: 2, total obj: 957
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 959
+Running python script in foreground.
+inference: time->55.47ms, fps: 18.03, total fps: 4.00, frame obj: 3, total obj: 962
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 963
+Running python script in foreground.
+inference: time->56.57ms, fps: 17.68, total fps: 4.00, frame obj: 2, total obj: 965
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 967
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 969
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 971
+Running python script in foreground.
+inference: time->55.97ms, fps: 17.87, total fps: 4.00, frame obj: 2, total obj: 973
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 975
+Running python script in foreground.
+inference: time->55.27ms, fps: 18.09, total fps: 4.00, frame obj: 2, total obj: 977
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 979
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 3, total obj: 982
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 984
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 3.00, frame obj: 1, total obj: 985
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 987
+Running python script in foreground.
+inference: time->56.02ms, fps: 17.85, total fps: 4.00, frame obj: 2, total obj: 989
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 990
+Running python script in foreground.
+inference: time->55.68ms, fps: 17.96, total fps: 4.00, frame obj: 2, total obj: 992
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 994
+Running python script in foreground.
+inference: time->55.81ms, fps: 17.92, total fps: 4.00, frame obj: 2, total obj: 996
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 998
+Running python script in foreground.
+inference: time->56.61ms, fps: 17.67, total fps: 4.00, frame obj: 3, total obj: 1001
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 1003
+Running python script in foreground.
+inference: time->57.04ms, fps: 17.53, total fps: 4.00, frame obj: 1, total obj: 1004
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1005
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 1007
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 3, total obj: 1010
+Running python script in foreground.
+inference: time->55.46ms, fps: 18.03, total fps: 4.00, frame obj: 2, total obj: 1012
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 1014
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 4.00, frame obj: 3, total obj: 1017
+Running python script in foreground.
+inference: time->57.58ms, fps: 17.37, total fps: 4.00, frame obj: 2, total obj: 1019
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 1021
+Running python script in foreground.
+inference: time->55.50ms, fps: 18.02, total fps: 4.00, frame obj: 2, total obj: 1023
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 1025
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.25, total fps: 4.00, frame obj: 2, total obj: 1027
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1028
+Running python script in foreground.
+inference: time->55.13ms, fps: 18.14, total fps: 4.00, frame obj: 2, total obj: 1030
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 1031
+Running python script in foreground.
+inference: time->54.43ms, fps: 18.37, total fps: 3.00, frame obj: 2, total obj: 1033
+Running python script in foreground.
+inference: time->55.80ms, fps: 17.92, total fps: 4.00, frame obj: 1, total obj: 1034
+Running python script in foreground.
+inference: time->54.44ms, fps: 18.37, total fps: 3.00, frame obj: 2, total obj: 1036
+Running python script in foreground.
+inference: time->56.90ms, fps: 17.58, total fps: 4.00, frame obj: 2, total obj: 1038
+Running python script in foreground.
+inference: time->54.48ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 1040
+Running python script in foreground.
+inference: time->55.76ms, fps: 17.93, total fps: 4.00, frame obj: 2, total obj: 1042
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1044
+Running python script in foreground.
+inference: time->56.31ms, fps: 17.76, total fps: 4.00, frame obj: 2, total obj: 1046
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1047
+Running python script in foreground.
+inference: time->55.39ms, fps: 18.05, total fps: 4.00, frame obj: 2, total obj: 1049
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 1051
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 3.00, frame obj: 2, total obj: 1053
+Running python script in foreground.
+inference: time->54.96ms, fps: 18.19, total fps: 4.00, frame obj: 3, total obj: 1056
+Running python script in foreground.
+inference: time->56.02ms, fps: 17.85, total fps: 4.00, frame obj: 2, total obj: 1058
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1059
+Running python script in foreground.
+inference: time->56.43ms, fps: 17.72, total fps: 4.00, frame obj: 2, total obj: 1061
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 1063
+Running python script in foreground.
+inference: time->55.89ms, fps: 17.89, total fps: 4.00, frame obj: 2, total obj: 1065
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 1067
+Running python script in foreground.
+inference: time->55.80ms, fps: 17.92, total fps: 4.00, frame obj: 2, total obj: 1069
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 4.00, frame obj: 2, total obj: 1071
+Running python script in foreground.
+inference: time->55.70ms, fps: 17.95, total fps: 4.00, frame obj: 2, total obj: 1073
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 1075
+Running python script in foreground.
+inference: time->55.41ms, fps: 18.05, total fps: 4.00, frame obj: 2, total obj: 1077
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 3.00, frame obj: 3, total obj: 1080
+Running python script in foreground.
+inference: time->56.96ms, fps: 17.56, total fps: 4.00, frame obj: 2, total obj: 1082
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 2, total obj: 1084
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 4.00, frame obj: 2, total obj: 1086
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1088
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 1089
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 1091
+Running python script in foreground.
+inference: time->55.78ms, fps: 17.93, total fps: 4.00, frame obj: 2, total obj: 1093
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 3.00, frame obj: 3, total obj: 1096
+Running python script in foreground.
+inference: time->55.51ms, fps: 18.01, total fps: 4.00, frame obj: 2, total obj: 1098
+Running python script in foreground.
+inference: time->54.42ms, fps: 18.38, total fps: 4.00, frame obj: 1, total obj: 1099
+Running python script in foreground.
+inference: time->55.08ms, fps: 18.16, total fps: 4.00, frame obj: 2, total obj: 1101
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 1102
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 1104
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 1106
+Running python script in foreground.
+inference: time->55.70ms, fps: 17.95, total fps: 4.00, frame obj: 1, total obj: 1107
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1109
+Running python script in foreground.
+inference: time->55.15ms, fps: 18.13, total fps: 4.00, frame obj: 2, total obj: 1111
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 3, total obj: 1114
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 1116
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 1118
+Running python script in foreground.
+inference: time->55.82ms, fps: 17.91, total fps: 3.00, frame obj: 2, total obj: 1120
+Running python script in foreground.
+inference: time->58.20ms, fps: 17.18, total fps: 3.00, frame obj: 2, total obj: 1122
+Running python script in foreground.
+inference: time->58.67ms, fps: 17.04, total fps: 3.00, frame obj: 1, total obj: 1123
+Running python script in foreground.
+inference: time->57.67ms, fps: 17.34, total fps: 3.00, frame obj: 2, total obj: 1125
+Running python script in foreground.
+inference: time->57.23ms, fps: 17.47, total fps: 3.00, frame obj: 1, total obj: 1126
+Running python script in foreground.
+inference: time->55.01ms, fps: 18.18, total fps: 3.00, frame obj: 2, total obj: 1128
+Running python script in foreground.
+inference: time->55.04ms, fps: 18.17, total fps: 3.00, frame obj: 2, total obj: 1130
+Running python script in foreground.
+inference: time->55.45ms, fps: 18.03, total fps: 4.00, frame obj: 2, total obj: 1132
+Running python script in foreground.
+inference: time->55.70ms, fps: 17.95, total fps: 3.00, frame obj: 2, total obj: 1134
+Running python script in foreground.
+inference: time->57.76ms, fps: 17.31, total fps: 3.00, frame obj: 2, total obj: 1136
+Running python script in foreground.
+inference: time->57.37ms, fps: 17.43, total fps: 3.00, frame obj: 1, total obj: 1137
+Running python script in foreground.
+inference: time->58.17ms, fps: 17.19, total fps: 3.00, frame obj: 3, total obj: 1140
+Running python script in foreground.
+inference: time->58.91ms, fps: 16.97, total fps: 3.00, frame obj: 2, total obj: 1142
+Running python script in foreground.
+inference: time->58.48ms, fps: 17.10, total fps: 3.00, frame obj: 3, total obj: 1145
+Running python script in foreground.
+inference: time->58.08ms, fps: 17.22, total fps: 3.00, frame obj: 2, total obj: 1147
+Running python script in foreground.
+inference: time->58.04ms, fps: 17.23, total fps: 3.00, frame obj: 2, total obj: 1149
+Running python script in foreground.
+inference: time->59.42ms, fps: 16.83, total fps: 2.00, frame obj: 2, total obj: 1151
+Running python script in foreground.
+inference: time->55.44ms, fps: 18.04, total fps: 3.00, frame obj: 3, total obj: 1154
+Running python script in foreground.
+inference: time->58.00ms, fps: 17.24, total fps: 2.00, frame obj: 1, total obj: 1155
+Running python script in foreground.
+inference: time->60.85ms, fps: 16.43, total fps: 3.00, frame obj: 0, total obj: 1155
+Running python script in foreground.
+inference: time->58.51ms, fps: 17.09, total fps: 3.00, frame obj: 1, total obj: 1156
+Running python script in foreground.
+inference: time->57.69ms, fps: 17.34, total fps: 3.00, frame obj: 1, total obj: 1157
+Running python script in foreground.
+inference: time->61.98ms, fps: 16.13, total fps: 3.00, frame obj: 1, total obj: 1158
+Running python script in foreground.
+inference: time->55.80ms, fps: 17.92, total fps: 3.00, frame obj: 1, total obj: 1159
+Running python script in foreground.
+inference: time->67.51ms, fps: 14.81, total fps: 3.00, frame obj: 2, total obj: 1161
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 1162
+Running python script in foreground.
+inference: time->57.78ms, fps: 17.31, total fps: 3.00, frame obj: 1, total obj: 1163
+Running python script in foreground.
+inference: time->58.23ms, fps: 17.17, total fps: 3.00, frame obj: 1, total obj: 1164
+Running python script in foreground.
+inference: time->56.14ms, fps: 17.81, total fps: 3.00, frame obj: 1, total obj: 1165
+Running python script in foreground.
+inference: time->59.66ms, fps: 16.76, total fps: 3.00, frame obj: 1, total obj: 1166
+Running python script in foreground.
+inference: time->64.62ms, fps: 15.47, total fps: 3.00, frame obj: 1, total obj: 1167
+Running python script in foreground.
+inference: time->70.21ms, fps: 14.24, total fps: 3.00, frame obj: 1, total obj: 1168
+Running python script in foreground.
+inference: time->55.45ms, fps: 18.03, total fps: 3.00, frame obj: 1, total obj: 1169
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1170
+Running python script in foreground.
+inference: time->63.59ms, fps: 15.73, total fps: 4.00, frame obj: 1, total obj: 1171
+Running python script in foreground.
+inference: time->64.29ms, fps: 15.56, total fps: 3.00, frame obj: 1, total obj: 1172
+Running python script in foreground.
+inference: time->64.46ms, fps: 15.51, total fps: 3.00, frame obj: 1, total obj: 1173
+Running python script in foreground.
+inference: time->55.58ms, fps: 17.99, total fps: 3.00, frame obj: 1, total obj: 1174
+Running python script in foreground.
+inference: time->59.07ms, fps: 16.93, total fps: 4.00, frame obj: 1, total obj: 1175
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 1176
+Running python script in foreground.
+inference: time->54.94ms, fps: 18.20, total fps: 3.00, frame obj: 1, total obj: 1177
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1178
+Running python script in foreground.
+inference: time->54.90ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1179
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 1180
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1181
+Running python script in foreground.
+inference: time->55.89ms, fps: 17.89, total fps: 4.00, frame obj: 1, total obj: 1182
+Running python script in foreground.
+inference: time->55.68ms, fps: 17.96, total fps: 4.00, frame obj: 1, total obj: 1183
+Running python script in foreground.
+inference: time->57.81ms, fps: 17.30, total fps: 3.00, frame obj: 1, total obj: 1184
+Running python script in foreground.
+inference: time->58.59ms, fps: 17.07, total fps: 3.00, frame obj: 1, total obj: 1185
+Running python script in foreground.
+inference: time->60.33ms, fps: 16.58, total fps: 3.00, frame obj: 1, total obj: 1186
+Running python script in foreground.
+inference: time->60.55ms, fps: 16.51, total fps: 3.00, frame obj: 1, total obj: 1187
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1188
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 4.00, frame obj: 1, total obj: 1189
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1190
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 4.00, frame obj: 1, total obj: 1191
+Running python script in foreground.
+inference: time->57.05ms, fps: 17.53, total fps: 3.00, frame obj: 1, total obj: 1192
+Running python script in foreground.
+inference: time->65.96ms, fps: 15.16, total fps: 3.00, frame obj: 1, total obj: 1193
+Running python script in foreground.
+inference: time->64.56ms, fps: 15.49, total fps: 3.00, frame obj: 1, total obj: 1194
+Running python script in foreground.
+inference: time->58.50ms, fps: 17.09, total fps: 3.00, frame obj: 1, total obj: 1195
+Running python script in foreground.
+inference: time->57.95ms, fps: 17.26, total fps: 3.00, frame obj: 2, total obj: 1197
+Running python script in foreground.
+inference: time->55.45ms, fps: 18.03, total fps: 3.00, frame obj: 1, total obj: 1198
+Running python script in foreground.
+inference: time->54.45ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 1199
+Running python script in foreground.
+inference: time->54.90ms, fps: 18.21, total fps: 4.00, frame obj: 1, total obj: 1200
+Running python script in foreground.
+inference: time->60.92ms, fps: 16.42, total fps: 3.00, frame obj: 1, total obj: 1201
+Running python script in foreground.
+inference: time->62.83ms, fps: 15.92, total fps: 3.00, frame obj: 1, total obj: 1202
+Running python script in foreground.
+inference: time->62.23ms, fps: 16.07, total fps: 3.00, frame obj: 1, total obj: 1203
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1204
+Running python script in foreground.
+inference: time->59.37ms, fps: 16.84, total fps: 3.00, frame obj: 1, total obj: 1205
+Running python script in foreground.
+inference: time->54.94ms, fps: 18.20, total fps: 3.00, frame obj: 1, total obj: 1206
+Running python script in foreground.
+inference: time->56.81ms, fps: 17.60, total fps: 4.00, frame obj: 1, total obj: 1207
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 1208
+Running python script in foreground.
+inference: time->65.67ms, fps: 15.23, total fps: 3.00, frame obj: 1, total obj: 1209
+Running python script in foreground.
+inference: time->60.05ms, fps: 16.65, total fps: 3.00, frame obj: 1, total obj: 1210
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 3.00, frame obj: 1, total obj: 1211
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 1212
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1213
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 1214
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 1215
+Running python script in foreground.
+inference: time->65.73ms, fps: 15.21, total fps: 4.00, frame obj: 1, total obj: 1216
+Running python script in foreground.
+inference: time->67.59ms, fps: 14.80, total fps: 3.00, frame obj: 1, total obj: 1217
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1218
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1219
+Running python script in foreground.
+inference: time->55.99ms, fps: 17.86, total fps: 4.00, frame obj: 1, total obj: 1220
+Running python script in foreground.
+inference: time->63.77ms, fps: 15.68, total fps: 3.00, frame obj: 1, total obj: 1221
+Running python script in foreground.
+inference: time->63.13ms, fps: 15.84, total fps: 3.00, frame obj: 1, total obj: 1222
+Running python script in foreground.
+inference: time->71.22ms, fps: 14.04, total fps: 3.00, frame obj: 1, total obj: 1223
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1224
+Running python script in foreground.
+inference: time->67.67ms, fps: 14.78, total fps: 3.00, frame obj: 1, total obj: 1225
+Running python script in foreground.
+inference: time->69.71ms, fps: 14.34, total fps: 3.00, frame obj: 1, total obj: 1226
+Running python script in foreground.
+inference: time->69.87ms, fps: 14.31, total fps: 3.00, frame obj: 1, total obj: 1227
+Running python script in foreground.
+inference: time->65.27ms, fps: 15.32, total fps: 3.00, frame obj: 1, total obj: 1228
+Running python script in foreground.
+inference: time->69.35ms, fps: 14.42, total fps: 3.00, frame obj: 1, total obj: 1229
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1230
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1231
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 1232
+Running python script in foreground.
+inference: time->66.91ms, fps: 14.94, total fps: 4.00, frame obj: 1, total obj: 1233
+Running python script in foreground.
+inference: time->63.63ms, fps: 15.72, total fps: 3.00, frame obj: 1, total obj: 1234
+Running python script in foreground.
+inference: time->56.05ms, fps: 17.84, total fps: 3.00, frame obj: 1, total obj: 1235
+Running python script in foreground.
+inference: time->57.70ms, fps: 17.33, total fps: 3.00, frame obj: 1, total obj: 1236
+Running python script in foreground.
+inference: time->57.23ms, fps: 17.47, total fps: 3.00, frame obj: 1, total obj: 1237
+Running python script in foreground.
+inference: time->57.47ms, fps: 17.40, total fps: 3.00, frame obj: 1, total obj: 1238
+Running python script in foreground.
+inference: time->55.45ms, fps: 18.03, total fps: 3.00, frame obj: 1, total obj: 1239
+Running python script in foreground.
+inference: time->56.68ms, fps: 17.64, total fps: 3.00, frame obj: 1, total obj: 1240
+Running python script in foreground.
+inference: time->57.02ms, fps: 17.54, total fps: 3.00, frame obj: 1, total obj: 1241
+Running python script in foreground.
+inference: time->58.34ms, fps: 17.14, total fps: 3.00, frame obj: 1, total obj: 1242
+Running python script in foreground.
+inference: time->58.54ms, fps: 17.08, total fps: 3.00, frame obj: 1, total obj: 1243
+Running python script in foreground.
+inference: time->58.07ms, fps: 17.22, total fps: 3.00, frame obj: 1, total obj: 1244
+Running python script in foreground.
+inference: time->58.32ms, fps: 17.15, total fps: 3.00, frame obj: 1, total obj: 1245
+Running python script in foreground.
+inference: time->58.81ms, fps: 17.00, total fps: 3.00, frame obj: 1, total obj: 1246
+Running python script in foreground.
+inference: time->58.23ms, fps: 17.17, total fps: 3.00, frame obj: 1, total obj: 1247
+Running python script in foreground.
+inference: time->54.37ms, fps: 18.39, total fps: 3.00, frame obj: 1, total obj: 1248
+Running python script in foreground.
+inference: time->55.11ms, fps: 18.15, total fps: 3.00, frame obj: 1, total obj: 1249
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1250
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 4.00, frame obj: 1, total obj: 1251
+Running python script in foreground.
+inference: time->59.35ms, fps: 16.85, total fps: 3.00, frame obj: 1, total obj: 1252
+Running python script in foreground.
+inference: time->58.23ms, fps: 17.17, total fps: 3.00, frame obj: 1, total obj: 1253
+Running python script in foreground.
+inference: time->58.49ms, fps: 17.10, total fps: 3.00, frame obj: 1, total obj: 1254
+Running python script in foreground.
+inference: time->57.18ms, fps: 17.49, total fps: 3.00, frame obj: 1, total obj: 1255
+Running python script in foreground.
+inference: time->58.06ms, fps: 17.22, total fps: 4.00, frame obj: 1, total obj: 1256
+Running python script in foreground.
+inference: time->58.54ms, fps: 17.08, total fps: 3.00, frame obj: 1, total obj: 1257
+Running python script in foreground.
+inference: time->58.68ms, fps: 17.04, total fps: 3.00, frame obj: 1, total obj: 1258
+Running python script in foreground.
+inference: time->57.29ms, fps: 17.46, total fps: 3.00, frame obj: 1, total obj: 1259
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1260
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 1261
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 1262
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 1263
+Running python script in foreground.
+inference: time->57.96ms, fps: 17.25, total fps: 3.00, frame obj: 1, total obj: 1264
+Running python script in foreground.
+inference: time->57.27ms, fps: 17.46, total fps: 3.00, frame obj: 1, total obj: 1265
+Running python script in foreground.
+inference: time->58.17ms, fps: 17.19, total fps: 3.00, frame obj: 1, total obj: 1266
+Running python script in foreground.
+inference: time->58.88ms, fps: 16.98, total fps: 3.00, frame obj: 1, total obj: 1267
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 1268
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 1269
+Running python script in foreground.
+inference: time->56.04ms, fps: 17.84, total fps: 4.00, frame obj: 1, total obj: 1270
+Running python script in foreground.
+inference: time->54.42ms, fps: 18.38, total fps: 4.00, frame obj: 1, total obj: 1271
+Running python script in foreground.
+inference: time->54.93ms, fps: 18.21, total fps: 4.00, frame obj: 1, total obj: 1272
+Running python script in foreground.
+inference: time->58.98ms, fps: 16.95, total fps: 4.00, frame obj: 1, total obj: 1273
+Running python script in foreground.
+inference: time->58.15ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 1274
+Running python script in foreground.
+inference: time->58.81ms, fps: 17.00, total fps: 3.00, frame obj: 1, total obj: 1275
+Running python script in foreground.
+inference: time->58.15ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 1276
+Running python script in foreground.
+inference: time->56.94ms, fps: 17.56, total fps: 3.00, frame obj: 1, total obj: 1277
+Running python script in foreground.
+inference: time->57.38ms, fps: 17.43, total fps: 4.00, frame obj: 1, total obj: 1278
+Running python script in foreground.
+inference: time->55.37ms, fps: 18.06, total fps: 3.00, frame obj: 1, total obj: 1279
+Running python script in foreground.
+inference: time->58.19ms, fps: 17.19, total fps: 4.00, frame obj: 1, total obj: 1280
+Running python script in foreground.
+inference: time->57.56ms, fps: 17.37, total fps: 3.00, frame obj: 1, total obj: 1281
+Running python script in foreground.
+inference: time->59.47ms, fps: 16.81, total fps: 3.00, frame obj: 1, total obj: 1282
+Running python script in foreground.
+inference: time->60.22ms, fps: 16.61, total fps: 3.00, frame obj: 1, total obj: 1283
+Running python script in foreground.
+inference: time->59.26ms, fps: 16.88, total fps: 3.00, frame obj: 1, total obj: 1284
+Running python script in foreground.
+inference: time->56.09ms, fps: 17.83, total fps: 3.00, frame obj: 1, total obj: 1285
+Running python script in foreground.
+inference: time->58.13ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 1286
+Running python script in foreground.
+inference: time->58.57ms, fps: 17.07, total fps: 3.00, frame obj: 1, total obj: 1287
+Running python script in foreground.
+inference: time->58.28ms, fps: 17.16, total fps: 3.00, frame obj: 1, total obj: 1288
+Running python script in foreground.
+inference: time->59.29ms, fps: 16.87, total fps: 3.00, frame obj: 1, total obj: 1289
+Running python script in foreground.
+inference: time->62.62ms, fps: 15.97, total fps: 3.00, frame obj: 2, total obj: 1291
+Running python script in foreground.
+inference: time->59.10ms, fps: 16.92, total fps: 3.00, frame obj: 1, total obj: 1292
+Running python script in foreground.
+inference: time->68.29ms, fps: 14.64, total fps: 3.00, frame obj: 1, total obj: 1293
+Running python script in foreground.
+inference: time->57.97ms, fps: 17.25, total fps: 3.00, frame obj: 1, total obj: 1294
+Running python script in foreground.
+inference: time->62.03ms, fps: 16.12, total fps: 3.00, frame obj: 1, total obj: 1295
+Running python script in foreground.
+inference: time->57.79ms, fps: 17.30, total fps: 3.00, frame obj: 1, total obj: 1296
+Running python script in foreground.
+inference: time->60.71ms, fps: 16.47, total fps: 3.00, frame obj: 1, total obj: 1297
+Running python script in foreground.
+inference: time->66.67ms, fps: 15.00, total fps: 3.00, frame obj: 1, total obj: 1298
+Running python script in foreground.
+inference: time->58.14ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 1299
+Running python script in foreground.
+inference: time->56.51ms, fps: 17.70, total fps: 3.00, frame obj: 1, total obj: 1300
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 3.00, frame obj: 2, total obj: 1302
+Running python script in foreground.
+inference: time->55.85ms, fps: 17.90, total fps: 4.00, frame obj: 1, total obj: 1303
+Running python script in foreground.
+inference: time->57.50ms, fps: 17.39, total fps: 3.00, frame obj: 1, total obj: 1304
+Running python script in foreground.
+inference: time->60.90ms, fps: 16.42, total fps: 3.00, frame obj: 2, total obj: 1306
+Running python script in foreground.
+inference: time->68.07ms, fps: 14.69, total fps: 3.00, frame obj: 1, total obj: 1307
+Running python script in foreground.
+inference: time->58.49ms, fps: 17.10, total fps: 3.00, frame obj: 1, total obj: 1308
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 1309
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1310
+Running python script in foreground.
+inference: time->54.84ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 1311
+Running python script in foreground.
+inference: time->58.46ms, fps: 17.11, total fps: 3.00, frame obj: 1, total obj: 1312
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1313
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1314
+Running python script in foreground.
+inference: time->55.95ms, fps: 17.87, total fps: 3.00, frame obj: 1, total obj: 1315
+Running python script in foreground.
+inference: time->56.85ms, fps: 17.59, total fps: 3.00, frame obj: 1, total obj: 1316
+Running python script in foreground.
+inference: time->57.79ms, fps: 17.31, total fps: 4.00, frame obj: 1, total obj: 1317
+Running python script in foreground.
+inference: time->58.84ms, fps: 17.00, total fps: 3.00, frame obj: 1, total obj: 1318
+Running python script in foreground.
+inference: time->57.77ms, fps: 17.31, total fps: 3.00, frame obj: 1, total obj: 1319
+Running python script in foreground.
+inference: time->60.10ms, fps: 16.64, total fps: 3.00, frame obj: 1, total obj: 1320
+Running python script in foreground.
+inference: time->58.63ms, fps: 17.06, total fps: 3.00, frame obj: 1, total obj: 1321
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1322
+Running python script in foreground.
+inference: time->56.56ms, fps: 17.68, total fps: 3.00, frame obj: 1, total obj: 1323
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1324
+Running python script in foreground.
+inference: time->57.62ms, fps: 17.35, total fps: 3.00, frame obj: 1, total obj: 1325
+Running python script in foreground.
+inference: time->58.14ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 1326
+Running python script in foreground.
+inference: time->58.23ms, fps: 17.17, total fps: 3.00, frame obj: 1, total obj: 1327
+Running python script in foreground.
+inference: time->57.79ms, fps: 17.30, total fps: 3.00, frame obj: 1, total obj: 1328
+Running python script in foreground.
+inference: time->58.00ms, fps: 17.24, total fps: 3.00, frame obj: 1, total obj: 1329
+Running python script in foreground.
+inference: time->55.60ms, fps: 17.99, total fps: 3.00, frame obj: 1, total obj: 1330
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 1331
+Running python script in foreground.
+inference: time->60.79ms, fps: 16.45, total fps: 3.00, frame obj: 1, total obj: 1332
+Running python script in foreground.
+inference: time->58.76ms, fps: 17.02, total fps: 3.00, frame obj: 1, total obj: 1333
+Running python script in foreground.
+inference: time->58.22ms, fps: 17.18, total fps: 3.00, frame obj: 1, total obj: 1334
+Running python script in foreground.
+inference: time->58.34ms, fps: 17.14, total fps: 3.00, frame obj: 1, total obj: 1335
+Running python script in foreground.
+inference: time->56.48ms, fps: 17.71, total fps: 3.00, frame obj: 1, total obj: 1336
+Running python script in foreground.
+inference: time->56.88ms, fps: 17.58, total fps: 3.00, frame obj: 1, total obj: 1337
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 3.00, frame obj: 1, total obj: 1338
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 1339
+Running python script in foreground.
+inference: time->55.96ms, fps: 17.87, total fps: 4.00, frame obj: 1, total obj: 1340
+Running python script in foreground.
+inference: time->58.11ms, fps: 17.21, total fps: 3.00, frame obj: 1, total obj: 1341
+Running python script in foreground.
+inference: time->55.89ms, fps: 17.89, total fps: 3.00, frame obj: 1, total obj: 1342
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 1343
+Running python script in foreground.
+inference: time->55.78ms, fps: 17.93, total fps: 3.00, frame obj: 1, total obj: 1344
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 1345
+Running python script in foreground.
+inference: time->57.46ms, fps: 17.40, total fps: 3.00, frame obj: 1, total obj: 1346
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 1347
+Running python script in foreground.
+inference: time->58.31ms, fps: 17.15, total fps: 4.00, frame obj: 1, total obj: 1348
+Running python script in foreground.
+inference: time->56.96ms, fps: 17.56, total fps: 3.00, frame obj: 1, total obj: 1349
+Running python script in foreground.
+inference: time->57.85ms, fps: 17.29, total fps: 3.00, frame obj: 1, total obj: 1350
+Running python script in foreground.
+inference: time->58.96ms, fps: 16.96, total fps: 3.00, frame obj: 1, total obj: 1351
+Running python script in foreground.
+inference: time->57.43ms, fps: 17.41, total fps: 3.00, frame obj: 1, total obj: 1352
+Running python script in foreground.
+inference: time->58.42ms, fps: 17.12, total fps: 3.00, frame obj: 1, total obj: 1353
+Running python script in foreground.
+inference: time->58.41ms, fps: 17.12, total fps: 3.00, frame obj: 1, total obj: 1354
+Running python script in foreground.
+inference: time->55.90ms, fps: 17.89, total fps: 3.00, frame obj: 1, total obj: 1355
+Running python script in foreground.
+inference: time->57.48ms, fps: 17.40, total fps: 3.00, frame obj: 1, total obj: 1356
+Running python script in foreground.
+inference: time->57.76ms, fps: 17.31, total fps: 3.00, frame obj: 1, total obj: 1357
+Running python script in foreground.
+inference: time->57.56ms, fps: 17.37, total fps: 3.00, frame obj: 1, total obj: 1358
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1359
+Running python script in foreground.
+inference: time->56.59ms, fps: 17.67, total fps: 3.00, frame obj: 1, total obj: 1360
+Running python script in foreground.
+inference: time->58.51ms, fps: 17.09, total fps: 3.00, frame obj: 1, total obj: 1361
+Running python script in foreground.
+inference: time->59.75ms, fps: 16.74, total fps: 3.00, frame obj: 1, total obj: 1362
+Running python script in foreground.
+inference: time->56.05ms, fps: 17.84, total fps: 3.00, frame obj: 1, total obj: 1363
+Running python script in foreground.
+inference: time->56.65ms, fps: 17.65, total fps: 3.00, frame obj: 1, total obj: 1364
+Running python script in foreground.
+inference: time->62.88ms, fps: 15.90, total fps: 3.00, frame obj: 1, total obj: 1365
+Running python script in foreground.
+inference: time->66.21ms, fps: 15.10, total fps: 3.00, frame obj: 1, total obj: 1366
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 1367
+Running python script in foreground.
+inference: time->59.19ms, fps: 16.89, total fps: 3.00, frame obj: 1, total obj: 1368
+Running python script in foreground.
+inference: time->57.48ms, fps: 17.40, total fps: 3.00, frame obj: 2, total obj: 1370
+Running python script in foreground.
+inference: time->58.48ms, fps: 17.10, total fps: 3.00, frame obj: 1, total obj: 1371
+Running python script in foreground.
+inference: time->57.51ms, fps: 17.39, total fps: 3.00, frame obj: 1, total obj: 1372
+Running python script in foreground.
+inference: time->59.03ms, fps: 16.94, total fps: 3.00, frame obj: 1, total obj: 1373
+Running python script in foreground.
+inference: time->57.63ms, fps: 17.35, total fps: 3.00, frame obj: 1, total obj: 1374
+Running python script in foreground.
+inference: time->54.93ms, fps: 18.21, total fps: 3.00, frame obj: 1, total obj: 1375
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 1376
+Running python script in foreground.
+inference: time->58.04ms, fps: 17.23, total fps: 4.00, frame obj: 1, total obj: 1377
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 1378
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 4.00, frame obj: 1, total obj: 1379
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 1380
+Running python script in foreground.
+inference: time->55.98ms, fps: 17.86, total fps: 3.00, frame obj: 1, total obj: 1381
+Running python script in foreground.
+inference: time->54.82ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 1382
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 1383
+Running python script in foreground.
+inference: time->55.11ms, fps: 18.15, total fps: 3.00, frame obj: 1, total obj: 1384
+Running python script in foreground.
+inference: time->56.02ms, fps: 17.85, total fps: 3.00, frame obj: 1, total obj: 1385
+Running python script in foreground.
+inference: time->55.92ms, fps: 17.88, total fps: 4.00, frame obj: 1, total obj: 1386
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 4.00, frame obj: 1, total obj: 1387
+Running python script in foreground.
+inference: time->55.48ms, fps: 18.03, total fps: 4.00, frame obj: 1, total obj: 1388
+Running python script in foreground.
+inference: time->55.56ms, fps: 18.00, total fps: 3.00, frame obj: 1, total obj: 1389
+Running python script in foreground.
+inference: time->56.21ms, fps: 17.79, total fps: 4.00, frame obj: 1, total obj: 1390
+Running python script in foreground.
+inference: time->60.84ms, fps: 16.44, total fps: 3.00, frame obj: 1, total obj: 1391
+Running python script in foreground.
+inference: time->61.82ms, fps: 16.18, total fps: 3.00, frame obj: 1, total obj: 1392
+Running python script in foreground.
+inference: time->62.22ms, fps: 16.07, total fps: 3.00, frame obj: 1, total obj: 1393
+Running python script in foreground.
+inference: time->63.59ms, fps: 15.73, total fps: 3.00, frame obj: 1, total obj: 1394
+Running python script in foreground.
+inference: time->61.10ms, fps: 16.37, total fps: 3.00, frame obj: 1, total obj: 1395
+Running python script in foreground.
+inference: time->59.26ms, fps: 16.88, total fps: 3.00, frame obj: 1, total obj: 1396
+Running python script in foreground.
+inference: time->58.65ms, fps: 17.05, total fps: 3.00, frame obj: 1, total obj: 1397
+Running python script in foreground.
+inference: time->61.83ms, fps: 16.17, total fps: 3.00, frame obj: 1, total obj: 1398
+Running python script in foreground.
+inference: time->62.60ms, fps: 15.97, total fps: 3.00, frame obj: 1, total obj: 1399
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 1400
+Running python script in foreground.
+inference: time->64.96ms, fps: 15.39, total fps: 3.00, frame obj: 1, total obj: 1401
+Running python script in foreground.
+inference: time->61.48ms, fps: 16.26, total fps: 3.00, frame obj: 1, total obj: 1402
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1403
+Running python script in foreground.
+inference: time->57.65ms, fps: 17.35, total fps: 4.00, frame obj: 1, total obj: 1404
+Running python script in foreground.
+inference: time->54.28ms, fps: 18.42, total fps: 4.00, frame obj: 1, total obj: 1405
+Running python script in foreground.
+inference: time->55.93ms, fps: 17.88, total fps: 4.00, frame obj: 1, total obj: 1406
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1407
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1408
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 1409
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 4.00, frame obj: 1, total obj: 1410
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 3.00, frame obj: 1, total obj: 1411
+Running python script in foreground.
+inference: time->56.93ms, fps: 17.56, total fps: 4.00, frame obj: 1, total obj: 1412
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1413
+Running python script in foreground.
+inference: time->55.92ms, fps: 17.88, total fps: 4.00, frame obj: 1, total obj: 1414
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 4.00, frame obj: 1, total obj: 1415
+Running python script in foreground.
+inference: time->56.11ms, fps: 17.82, total fps: 4.00, frame obj: 1, total obj: 1416
+Running python script in foreground.
+inference: time->55.07ms, fps: 18.16, total fps: 4.00, frame obj: 1, total obj: 1417
+Running python script in foreground.
+inference: time->56.23ms, fps: 17.79, total fps: 4.00, frame obj: 1, total obj: 1418
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 1419
+Running python script in foreground.
+inference: time->55.67ms, fps: 17.96, total fps: 4.00, frame obj: 1, total obj: 1420
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1421
+Running python script in foreground.
+inference: time->55.76ms, fps: 17.93, total fps: 4.00, frame obj: 1, total obj: 1422
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.34, total fps: 4.00, frame obj: 1, total obj: 1423
+Running python script in foreground.
+inference: time->55.97ms, fps: 17.87, total fps: 3.00, frame obj: 1, total obj: 1424
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 1425
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 1426
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 1427
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 4.00, frame obj: 1, total obj: 1428
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 1, total obj: 1429
+Running python script in foreground.
+inference: time->58.67ms, fps: 17.04, total fps: 3.00, frame obj: 1, total obj: 1430
+Running python script in foreground.
+inference: time->59.18ms, fps: 16.90, total fps: 3.00, frame obj: 1, total obj: 1431
+Running python script in foreground.
+inference: time->58.72ms, fps: 17.03, total fps: 3.00, frame obj: 1, total obj: 1432
+Running python script in foreground.
+inference: time->56.01ms, fps: 17.86, total fps: 3.00, frame obj: 1, total obj: 1433
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 1434
+Running python script in foreground.
+inference: time->58.13ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 1435
+Running python script in foreground.
+inference: time->59.05ms, fps: 16.94, total fps: 3.00, frame obj: 1, total obj: 1436
+Running python script in foreground.
+inference: time->58.68ms, fps: 17.04, total fps: 3.00, frame obj: 1, total obj: 1437
+Running python script in foreground.
+inference: time->56.99ms, fps: 17.55, total fps: 3.00, frame obj: 1, total obj: 1438
+Running python script in foreground.
+inference: time->55.60ms, fps: 17.99, total fps: 3.00, frame obj: 1, total obj: 1439
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 1440
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 4.00, frame obj: 1, total obj: 1441
+Running python script in foreground.
+inference: time->57.13ms, fps: 17.51, total fps: 4.00, frame obj: 1, total obj: 1442
+Running python script in foreground.
+inference: time->61.55ms, fps: 16.25, total fps: 3.00, frame obj: 1, total obj: 1443
+Running python script in foreground.
+inference: time->58.47ms, fps: 17.10, total fps: 3.00, frame obj: 1, total obj: 1444
+Running python script in foreground.
+inference: time->60.22ms, fps: 16.61, total fps: 3.00, frame obj: 1, total obj: 1445
+Running python script in foreground.
+inference: time->55.94ms, fps: 17.88, total fps: 3.00, frame obj: 1, total obj: 1446
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1447
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 4.00, frame obj: 2, total obj: 1449
+Running python script in foreground.
+inference: time->55.54ms, fps: 18.00, total fps: 4.00, frame obj: 1, total obj: 1450
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 3.00, frame obj: 2, total obj: 1452
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1453
+Running python script in foreground.
+inference: time->55.34ms, fps: 18.07, total fps: 4.00, frame obj: 1, total obj: 1454
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 3.00, frame obj: 1, total obj: 1455
+Running python script in foreground.
+inference: time->54.90ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1456
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 3.00, frame obj: 1, total obj: 1457
+Running python script in foreground.
+inference: time->54.93ms, fps: 18.20, total fps: 3.00, frame obj: 1, total obj: 1458
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 4.00, frame obj: 1, total obj: 1459
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1460
+Running python script in foreground.
+inference: time->55.48ms, fps: 18.02, total fps: 4.00, frame obj: 1, total obj: 1461
+Running python script in foreground.
+inference: time->58.56ms, fps: 17.08, total fps: 4.00, frame obj: 2, total obj: 1463
+Running python script in foreground.
+inference: time->60.75ms, fps: 16.46, total fps: 3.00, frame obj: 2, total obj: 1465
+Running python script in foreground.
+inference: time->62.42ms, fps: 16.02, total fps: 3.00, frame obj: 1, total obj: 1466
+Running python script in foreground.
+inference: time->61.61ms, fps: 16.23, total fps: 3.00, frame obj: 1, total obj: 1467
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 3.00, frame obj: 2, total obj: 1469
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 1470
+Running python script in foreground.
+inference: time->57.87ms, fps: 17.28, total fps: 3.00, frame obj: 1, total obj: 1471
+Running python script in foreground.
+inference: time->58.43ms, fps: 17.11, total fps: 3.00, frame obj: 1, total obj: 1472
+Running python script in foreground.
+inference: time->59.33ms, fps: 16.85, total fps: 3.00, frame obj: 1, total obj: 1473
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 1475
+Running python script in foreground.
+inference: time->59.11ms, fps: 16.92, total fps: 3.00, frame obj: 1, total obj: 1476
+Running python script in foreground.
+inference: time->59.67ms, fps: 16.76, total fps: 3.00, frame obj: 1, total obj: 1477
+Running python script in foreground.
+inference: time->59.12ms, fps: 16.92, total fps: 3.00, frame obj: 1, total obj: 1478
+Running python script in foreground.
+inference: time->57.29ms, fps: 17.46, total fps: 3.00, frame obj: 1, total obj: 1479
+Running python script in foreground.
+inference: time->55.65ms, fps: 17.97, total fps: 3.00, frame obj: 2, total obj: 1481
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 1483
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1484
+Running python script in foreground.
+inference: time->56.07ms, fps: 17.84, total fps: 3.00, frame obj: 2, total obj: 1486
+Running python script in foreground.
+inference: time->55.58ms, fps: 17.99, total fps: 3.00, frame obj: 1, total obj: 1487
+Running python script in foreground.
+inference: time->54.38ms, fps: 18.39, total fps: 3.00, frame obj: 1, total obj: 1488
+Running python script in foreground.
+inference: time->55.67ms, fps: 17.96, total fps: 4.00, frame obj: 1, total obj: 1489
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 1490
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1491
+Running python script in foreground.
+inference: time->62.37ms, fps: 16.03, total fps: 3.00, frame obj: 1, total obj: 1492
+Running python script in foreground.
+inference: time->58.19ms, fps: 17.19, total fps: 3.00, frame obj: 1, total obj: 1493
+Running python script in foreground.
+inference: time->58.07ms, fps: 17.22, total fps: 3.00, frame obj: 1, total obj: 1494
+Running python script in foreground.
+inference: time->58.50ms, fps: 17.10, total fps: 3.00, frame obj: 1, total obj: 1495
+Running python script in foreground.
+inference: time->54.83ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 1496
+Running python script in foreground.
+inference: time->55.79ms, fps: 17.92, total fps: 4.00, frame obj: 1, total obj: 1497
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 1498
+Running python script in foreground.
+inference: time->56.89ms, fps: 17.58, total fps: 3.00, frame obj: 2, total obj: 1500
+Running python script in foreground.
+inference: time->56.78ms, fps: 17.61, total fps: 3.00, frame obj: 1, total obj: 1501
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 1502
+Running python script in foreground.
+inference: time->55.11ms, fps: 18.15, total fps: 3.00, frame obj: 1, total obj: 1503
+Running python script in foreground.
+inference: time->55.79ms, fps: 17.92, total fps: 3.00, frame obj: 1, total obj: 1504
+Running python script in foreground.
+inference: time->55.14ms, fps: 18.14, total fps: 3.00, frame obj: 2, total obj: 1506
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 1508
+Running python script in foreground.
+inference: time->56.54ms, fps: 17.69, total fps: 4.00, frame obj: 1, total obj: 1509
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 1510
+Running python script in foreground.
+inference: time->61.61ms, fps: 16.23, total fps: 3.00, frame obj: 1, total obj: 1511
+Running python script in foreground.
+inference: time->58.34ms, fps: 17.14, total fps: 3.00, frame obj: 1, total obj: 1512
+Running python script in foreground.
+inference: time->57.72ms, fps: 17.33, total fps: 3.00, frame obj: 1, total obj: 1513
+Running python script in foreground.
+inference: time->58.16ms, fps: 17.19, total fps: 3.00, frame obj: 1, total obj: 1514
+Running python script in foreground.
+inference: time->54.94ms, fps: 18.20, total fps: 3.00, frame obj: 2, total obj: 1516
+Running python script in foreground.
+inference: time->68.87ms, fps: 14.52, total fps: 3.00, frame obj: 1, total obj: 1517
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 1518
+Running python script in foreground.
+inference: time->55.73ms, fps: 17.94, total fps: 3.00, frame obj: 2, total obj: 1520
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 1522
+Running python script in foreground.
+inference: time->55.38ms, fps: 18.06, total fps: 4.00, frame obj: 1, total obj: 1523
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 1524
+Running python script in foreground.
+inference: time->58.64ms, fps: 17.05, total fps: 3.00, frame obj: 1, total obj: 1525
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 1527
+Running python script in foreground.
+inference: time->55.58ms, fps: 17.99, total fps: 4.00, frame obj: 1, total obj: 1528
+Running python script in foreground.
+inference: time->60.29ms, fps: 16.59, total fps: 3.00, frame obj: 1, total obj: 1529
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 1531
+Running python script in foreground.
+inference: time->57.62ms, fps: 17.35, total fps: 3.00, frame obj: 2, total obj: 1533
+Running python script in foreground.
+inference: time->57.15ms, fps: 17.50, total fps: 3.00, frame obj: 1, total obj: 1534
+Running python script in foreground.
+inference: time->59.94ms, fps: 16.68, total fps: 3.00, frame obj: 2, total obj: 1536
+Running python script in foreground.
+inference: time->58.91ms, fps: 16.97, total fps: 3.00, frame obj: 1, total obj: 1537
+Running python script in foreground.
+inference: time->59.37ms, fps: 16.84, total fps: 3.00, frame obj: 1, total obj: 1538
+Running python script in foreground.
+inference: time->58.75ms, fps: 17.02, total fps: 3.00, frame obj: 1, total obj: 1539
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 1540
+Running python script in foreground.
+inference: time->58.15ms, fps: 17.20, total fps: 3.00, frame obj: 1, total obj: 1541
+Running python script in foreground.
+inference: time->58.52ms, fps: 17.09, total fps: 3.00, frame obj: 1, total obj: 1542
+Running python script in foreground.
+inference: time->58.64ms, fps: 17.05, total fps: 3.00, frame obj: 1, total obj: 1543
+Running python script in foreground.
+inference: time->57.77ms, fps: 17.31, total fps: 3.00, frame obj: 2, total obj: 1545
+Running python script in foreground.
+inference: time->58.86ms, fps: 16.99, total fps: 3.00, frame obj: 2, total obj: 1547
+Running python script in foreground.
+inference: time->55.84ms, fps: 17.91, total fps: 3.00, frame obj: 2, total obj: 1549
+Running python script in foreground.
+inference: time->56.05ms, fps: 17.84, total fps: 3.00, frame obj: 1, total obj: 1550
+Running python script in foreground.
+inference: time->55.83ms, fps: 17.91, total fps: 4.00, frame obj: 2, total obj: 1552
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 1554
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1555
+Running python script in foreground.
+inference: time->56.52ms, fps: 17.69, total fps: 3.00, frame obj: 1, total obj: 1556
+Running python script in foreground.
+inference: time->58.95ms, fps: 16.96, total fps: 3.00, frame obj: 1, total obj: 1557
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 3.00, frame obj: 1, total obj: 1558
+Running python script in foreground.
+inference: time->54.84ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 1559
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 1560
+Running python script in foreground.
+inference: time->56.29ms, fps: 17.76, total fps: 3.00, frame obj: 1, total obj: 1561
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 1562
+Running python script in foreground.
+inference: time->58.19ms, fps: 17.18, total fps: 4.00, frame obj: 2, total obj: 1564
+Running python script in foreground.
+inference: time->56.71ms, fps: 17.63, total fps: 3.00, frame obj: 2, total obj: 1566
+Running python script in foreground.
+inference: time->57.07ms, fps: 17.52, total fps: 3.00, frame obj: 2, total obj: 1568
+Running python script in foreground.
+inference: time->58.22ms, fps: 17.18, total fps: 3.00, frame obj: 1, total obj: 1569
+Running python script in foreground.
+inference: time->58.72ms, fps: 17.03, total fps: 3.00, frame obj: 2, total obj: 1571
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1572
+Running python script in foreground.
+inference: time->55.49ms, fps: 18.02, total fps: 3.00, frame obj: 1, total obj: 1573
+Running python script in foreground.
+inference: time->58.56ms, fps: 17.08, total fps: 3.00, frame obj: 2, total obj: 1575
+Running python script in foreground.
+inference: time->59.74ms, fps: 16.74, total fps: 3.00, frame obj: 1, total obj: 1576
+Running python script in foreground.
+inference: time->59.79ms, fps: 16.73, total fps: 3.00, frame obj: 1, total obj: 1577
+Running python script in foreground.
+inference: time->55.89ms, fps: 17.89, total fps: 3.00, frame obj: 1, total obj: 1578
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1579
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1580
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1581
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1582
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1583
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1584
+Running python script in foreground.
+inference: time->54.82ms, fps: 18.24, total fps: 4.00, frame obj: 2, total obj: 1586
+Running python script in foreground.
+inference: time->55.43ms, fps: 18.04, total fps: 3.00, frame obj: 1, total obj: 1587
+Running python script in foreground.
+inference: time->59.08ms, fps: 16.93, total fps: 3.00, frame obj: 2, total obj: 1589
+Running python script in foreground.
+inference: time->58.30ms, fps: 17.15, total fps: 3.00, frame obj: 2, total obj: 1591
+Running python script in foreground.
+inference: time->58.20ms, fps: 17.18, total fps: 3.00, frame obj: 2, total obj: 1593
+Running python script in foreground.
+inference: time->55.57ms, fps: 18.00, total fps: 3.00, frame obj: 1, total obj: 1594
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 1595
+Running python script in foreground.
+inference: time->58.39ms, fps: 17.12, total fps: 4.00, frame obj: 1, total obj: 1596
+Running python script in foreground.
+inference: time->59.55ms, fps: 16.79, total fps: 3.00, frame obj: 2, total obj: 1598
+Running python script in foreground.
+inference: time->59.88ms, fps: 16.70, total fps: 3.00, frame obj: 1, total obj: 1599
+Running python script in foreground.
+inference: time->56.05ms, fps: 17.84, total fps: 3.00, frame obj: 2, total obj: 1601
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 3.00, frame obj: 2, total obj: 1603
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1604
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 4.00, frame obj: 2, total obj: 1606
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 1608
+Running python script in foreground.
+inference: time->55.74ms, fps: 17.94, total fps: 3.00, frame obj: 1, total obj: 1609
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 1610
+Running python script in foreground.
+inference: time->55.42ms, fps: 18.04, total fps: 4.00, frame obj: 1, total obj: 1611
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1612
+Running python script in foreground.
+inference: time->59.92ms, fps: 16.69, total fps: 3.00, frame obj: 1, total obj: 1613
+Running python script in foreground.
+inference: time->58.59ms, fps: 17.07, total fps: 3.00, frame obj: 1, total obj: 1614
+Running python script in foreground.
+inference: time->57.45ms, fps: 17.41, total fps: 3.00, frame obj: 1, total obj: 1615
+Running python script in foreground.
+inference: time->57.96ms, fps: 17.25, total fps: 3.00, frame obj: 2, total obj: 1617
+Running python script in foreground.
+inference: time->57.75ms, fps: 17.32, total fps: 3.00, frame obj: 1, total obj: 1618
+Running python script in foreground.
+inference: time->59.05ms, fps: 16.94, total fps: 3.00, frame obj: 1, total obj: 1619
+Running python script in foreground.
+inference: time->59.25ms, fps: 16.88, total fps: 3.00, frame obj: 2, total obj: 1621
+Running python script in foreground.
+inference: time->57.09ms, fps: 17.52, total fps: 3.00, frame obj: 2, total obj: 1623
+Running python script in foreground.
+inference: time->63.16ms, fps: 15.83, total fps: 3.00, frame obj: 1, total obj: 1624
+Running python script in foreground.
+inference: time->62.90ms, fps: 15.90, total fps: 3.00, frame obj: 1, total obj: 1625
+Running python script in foreground.
+inference: time->65.33ms, fps: 15.31, total fps: 3.00, frame obj: 1, total obj: 1626
+Running python script in foreground.
+inference: time->63.08ms, fps: 15.85, total fps: 3.00, frame obj: 2, total obj: 1628
+Running python script in foreground.
+inference: time->58.82ms, fps: 17.00, total fps: 3.00, frame obj: 1, total obj: 1629
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 1631
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1633
+Running python script in foreground.
+inference: time->55.69ms, fps: 17.96, total fps: 4.00, frame obj: 2, total obj: 1635
+Running python script in foreground.
+inference: time->64.78ms, fps: 15.44, total fps: 3.00, frame obj: 2, total obj: 1637
+Running python script in foreground.
+inference: time->63.70ms, fps: 15.70, total fps: 3.00, frame obj: 1, total obj: 1638
+Running python script in foreground.
+inference: time->62.69ms, fps: 15.95, total fps: 3.00, frame obj: 2, total obj: 1640
+Running python script in foreground.
+inference: time->63.07ms, fps: 15.85, total fps: 3.00, frame obj: 2, total obj: 1642
+Running python script in foreground.
+inference: time->63.37ms, fps: 15.78, total fps: 3.00, frame obj: 2, total obj: 1644
+Running python script in foreground.
+inference: time->62.69ms, fps: 15.95, total fps: 3.00, frame obj: 2, total obj: 1646
+Running python script in foreground.
+inference: time->61.91ms, fps: 16.15, total fps: 3.00, frame obj: 2, total obj: 1648
+Running python script in foreground.
+inference: time->61.78ms, fps: 16.19, total fps: 3.00, frame obj: 1, total obj: 1649
+Running python script in foreground.
+inference: time->56.66ms, fps: 17.65, total fps: 3.00, frame obj: 1, total obj: 1650
+Running python script in foreground.
+inference: time->55.44ms, fps: 18.04, total fps: 3.00, frame obj: 2, total obj: 1652
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 1654
+Running python script in foreground.
+inference: time->56.09ms, fps: 17.83, total fps: 4.00, frame obj: 1, total obj: 1655
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 1656
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 3.00, frame obj: 1, total obj: 1657
+Running python script in foreground.
+inference: time->61.11ms, fps: 16.37, total fps: 3.00, frame obj: 1, total obj: 1658
+Running python script in foreground.
+inference: time->59.58ms, fps: 16.78, total fps: 3.00, frame obj: 1, total obj: 1659
+Running python script in foreground.
+inference: time->57.29ms, fps: 17.46, total fps: 3.00, frame obj: 1, total obj: 1660
+Running python script in foreground.
+inference: time->54.94ms, fps: 18.20, total fps: 4.00, frame obj: 1, total obj: 1661
+Running python script in foreground.
+inference: time->55.95ms, fps: 17.87, total fps: 4.00, frame obj: 1, total obj: 1662
+Running python script in foreground.
+inference: time->64.21ms, fps: 15.57, total fps: 3.00, frame obj: 1, total obj: 1663
+Running python script in foreground.
+inference: time->64.09ms, fps: 15.60, total fps: 3.00, frame obj: 1, total obj: 1664
+Running python script in foreground.
+inference: time->62.70ms, fps: 15.95, total fps: 3.00, frame obj: 1, total obj: 1665
+Running python script in foreground.
+inference: time->64.64ms, fps: 15.47, total fps: 3.00, frame obj: 1, total obj: 1666
+Running python script in foreground.
+inference: time->62.85ms, fps: 15.91, total fps: 3.00, frame obj: 1, total obj: 1667
+Running python script in foreground.
+inference: time->61.26ms, fps: 16.32, total fps: 3.00, frame obj: 1, total obj: 1668
+Running python script in foreground.
+inference: time->65.05ms, fps: 15.37, total fps: 3.00, frame obj: 1, total obj: 1669
+Running python script in foreground.
+inference: time->64.01ms, fps: 15.62, total fps: 3.00, frame obj: 1, total obj: 1670
+Running python script in foreground.
+inference: time->60.69ms, fps: 16.48, total fps: 3.00, frame obj: 1, total obj: 1671
+Running python script in foreground.
+inference: time->60.00ms, fps: 16.67, total fps: 3.00, frame obj: 1, total obj: 1672
+Running python script in foreground.
+inference: time->57.51ms, fps: 17.39, total fps: 4.00, frame obj: 1, total obj: 1673
+Running python script in foreground.
+inference: time->62.37ms, fps: 16.03, total fps: 3.00, frame obj: 1, total obj: 1674
+Running python script in foreground.
+inference: time->54.34ms, fps: 18.40, total fps: 3.00, frame obj: 1, total obj: 1675
+Running python script in foreground.
+inference: time->56.88ms, fps: 17.58, total fps: 3.00, frame obj: 1, total obj: 1676
+Running python script in foreground.
+inference: time->54.88ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1677
+Running python script in foreground.
+inference: time->68.58ms, fps: 14.58, total fps: 4.00, frame obj: 1, total obj: 1678
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1679
+Running python script in foreground.
+inference: time->58.84ms, fps: 16.99, total fps: 3.00, frame obj: 1, total obj: 1680
+Running python script in foreground.
+inference: time->60.70ms, fps: 16.47, total fps: 3.00, frame obj: 1, total obj: 1681
+Running python script in foreground.
+inference: time->55.49ms, fps: 18.02, total fps: 3.00, frame obj: 1, total obj: 1682
+Running python script in foreground.
+inference: time->55.65ms, fps: 17.97, total fps: 3.00, frame obj: 1, total obj: 1683
+Running python script in foreground.
+inference: time->67.02ms, fps: 14.92, total fps: 3.00, frame obj: 2, total obj: 1685
+Running python script in foreground.
+inference: time->61.80ms, fps: 16.18, total fps: 3.00, frame obj: 1, total obj: 1686
+Running python script in foreground.
+inference: time->55.49ms, fps: 18.02, total fps: 3.00, frame obj: 1, total obj: 1687
+Running python script in foreground.
+inference: time->55.88ms, fps: 17.89, total fps: 3.00, frame obj: 1, total obj: 1688
+Running python script in foreground.
+inference: time->56.41ms, fps: 17.73, total fps: 3.00, frame obj: 1, total obj: 1689
+Running python script in foreground.
+inference: time->63.64ms, fps: 15.71, total fps: 3.00, frame obj: 1, total obj: 1690
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1691
+Running python script in foreground.
+inference: time->57.89ms, fps: 17.27, total fps: 3.00, frame obj: 1, total obj: 1692
+Running python script in foreground.
+inference: time->58.82ms, fps: 17.00, total fps: 3.00, frame obj: 1, total obj: 1693
+Running python script in foreground.
+inference: time->58.57ms, fps: 17.07, total fps: 3.00, frame obj: 1, total obj: 1694
+Running python script in foreground.
+inference: time->57.82ms, fps: 17.29, total fps: 3.00, frame obj: 1, total obj: 1695
+Running python script in foreground.
+inference: time->59.01ms, fps: 16.94, total fps: 3.00, frame obj: 1, total obj: 1696
+Running python script in foreground.
+inference: time->55.01ms, fps: 18.18, total fps: 3.00, frame obj: 1, total obj: 1697
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1698
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 3.00, frame obj: 1, total obj: 1699
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 3.00, frame obj: 1, total obj: 1700
+Running python script in foreground.
+inference: time->59.04ms, fps: 16.94, total fps: 3.00, frame obj: 2, total obj: 1702
+Running python script in foreground.
+inference: time->59.14ms, fps: 16.91, total fps: 3.00, frame obj: 1, total obj: 1703
+Running python script in foreground.
+inference: time->58.20ms, fps: 17.18, total fps: 3.00, frame obj: 1, total obj: 1704
+Running python script in foreground.
+inference: time->59.45ms, fps: 16.82, total fps: 3.00, frame obj: 1, total obj: 1705
+Running python script in foreground.
+inference: time->57.73ms, fps: 17.32, total fps: 3.00, frame obj: 1, total obj: 1706
+Running python script in foreground.
+inference: time->58.94ms, fps: 16.97, total fps: 3.00, frame obj: 1, total obj: 1707
+Running python script in foreground.
+inference: time->58.91ms, fps: 16.98, total fps: 3.00, frame obj: 1, total obj: 1708
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 1709
+Running python script in foreground.
+inference: time->57.51ms, fps: 17.39, total fps: 4.00, frame obj: 2, total obj: 1711
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 1712
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1713
+Running python script in foreground.
+inference: time->57.97ms, fps: 17.25, total fps: 4.00, frame obj: 1, total obj: 1714
+Running python script in foreground.
+inference: time->58.57ms, fps: 17.07, total fps: 3.00, frame obj: 1, total obj: 1715
+Running python script in foreground.
+inference: time->57.92ms, fps: 17.27, total fps: 3.00, frame obj: 1, total obj: 1716
+Running python script in foreground.
+inference: time->58.65ms, fps: 17.05, total fps: 3.00, frame obj: 1, total obj: 1717
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1718
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 1719
+Running python script in foreground.
+inference: time->56.34ms, fps: 17.75, total fps: 4.00, frame obj: 1, total obj: 1720
+Running python script in foreground.
+inference: time->56.11ms, fps: 17.82, total fps: 3.00, frame obj: 1, total obj: 1721
+Running python script in foreground.
+inference: time->55.94ms, fps: 17.88, total fps: 3.00, frame obj: 1, total obj: 1722
+Running python script in foreground.
+inference: time->57.10ms, fps: 17.51, total fps: 3.00, frame obj: 1, total obj: 1723
+Running python script in foreground.
+inference: time->56.02ms, fps: 17.85, total fps: 3.00, frame obj: 1, total obj: 1724
+Running python script in foreground.
+inference: time->58.87ms, fps: 16.99, total fps: 3.00, frame obj: 1, total obj: 1725
+Running python script in foreground.
+inference: time->56.15ms, fps: 17.81, total fps: 3.00, frame obj: 2, total obj: 1727
+Running python script in foreground.
+inference: time->56.76ms, fps: 17.62, total fps: 3.00, frame obj: 2, total obj: 1729
+Running python script in foreground.
+inference: time->61.15ms, fps: 16.35, total fps: 3.00, frame obj: 1, total obj: 1730
+Running python script in foreground.
+inference: time->56.82ms, fps: 17.60, total fps: 3.00, frame obj: 2, total obj: 1732
+Running python script in foreground.
+inference: time->56.02ms, fps: 17.85, total fps: 3.00, frame obj: 1, total obj: 1733
+Running python script in foreground.
+inference: time->57.91ms, fps: 17.27, total fps: 3.00, frame obj: 1, total obj: 1734
+Running python script in foreground.
+inference: time->56.97ms, fps: 17.55, total fps: 3.00, frame obj: 1, total obj: 1735
+Running python script in foreground.
+inference: time->57.35ms, fps: 17.44, total fps: 3.00, frame obj: 2, total obj: 1737
+Running python script in foreground.
+inference: time->64.29ms, fps: 15.55, total fps: 3.00, frame obj: 1, total obj: 1738
+Running python script in foreground.
+inference: time->60.44ms, fps: 16.55, total fps: 2.00, frame obj: 1, total obj: 1739
+Running python script in foreground.
+inference: time->56.84ms, fps: 17.59, total fps: 3.00, frame obj: 1, total obj: 1740
+Running python script in foreground.
+inference: time->56.73ms, fps: 17.63, total fps: 3.00, frame obj: 1, total obj: 1741
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 1742
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.25, total fps: 3.00, frame obj: 1, total obj: 1743
+Running python script in foreground.
+inference: time->58.16ms, fps: 17.19, total fps: 3.00, frame obj: 1, total obj: 1744
+Running python script in foreground.
+inference: time->54.99ms, fps: 18.18, total fps: 3.00, frame obj: 1, total obj: 1745
+Running python script in foreground.
+inference: time->58.22ms, fps: 17.17, total fps: 3.00, frame obj: 2, total obj: 1747
+Running python script in foreground.
+inference: time->57.85ms, fps: 17.29, total fps: 3.00, frame obj: 1, total obj: 1748
+Running python script in foreground.
+inference: time->58.92ms, fps: 16.97, total fps: 3.00, frame obj: 1, total obj: 1749
+Running python script in foreground.
+inference: time->57.81ms, fps: 17.30, total fps: 3.00, frame obj: 1, total obj: 1750
+Running python script in foreground.
+inference: time->54.82ms, fps: 18.24, total fps: 3.00, frame obj: 1, total obj: 1751
+Running python script in foreground.
+inference: time->55.75ms, fps: 17.94, total fps: 3.00, frame obj: 1, total obj: 1752
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 4.00, frame obj: 1, total obj: 1753
+Running python script in foreground.
+inference: time->56.60ms, fps: 17.67, total fps: 3.00, frame obj: 1, total obj: 1754
+Running python script in foreground.
+inference: time->55.81ms, fps: 17.92, total fps: 3.00, frame obj: 1, total obj: 1755
+Running python script in foreground.
+inference: time->55.44ms, fps: 18.04, total fps: 4.00, frame obj: 1, total obj: 1756
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 1, total obj: 1757
+Running python script in foreground.
+inference: time->55.38ms, fps: 18.06, total fps: 4.00, frame obj: 1, total obj: 1758
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1759
+Running python script in foreground.
+inference: time->61.33ms, fps: 16.31, total fps: 4.00, frame obj: 1, total obj: 1760
+Running python script in foreground.
+inference: time->62.70ms, fps: 15.95, total fps: 3.00, frame obj: 1, total obj: 1761
+Running python script in foreground.
+inference: time->62.15ms, fps: 16.09, total fps: 3.00, frame obj: 2, total obj: 1763
+Running python script in foreground.
+inference: time->61.80ms, fps: 16.18, total fps: 3.00, frame obj: 2, total obj: 1765
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1766
+Running python script in foreground.
+inference: time->54.86ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 1768
+Running python script in foreground.
+inference: time->55.88ms, fps: 17.90, total fps: 3.00, frame obj: 1, total obj: 1769
+Running python script in foreground.
+inference: time->54.82ms, fps: 18.24, total fps: 4.00, frame obj: 1, total obj: 1770
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1771
+Running python script in foreground.
+inference: time->56.42ms, fps: 17.72, total fps: 4.00, frame obj: 1, total obj: 1772
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 3.00, frame obj: 1, total obj: 1773
+Running python script in foreground.
+inference: time->55.49ms, fps: 18.02, total fps: 4.00, frame obj: 1, total obj: 1774
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 1776
+Running python script in foreground.
+inference: time->57.18ms, fps: 17.49, total fps: 4.00, frame obj: 1, total obj: 1777
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 1778
+Running python script in foreground.
+inference: time->55.89ms, fps: 17.89, total fps: 4.00, frame obj: 1, total obj: 1779
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 1780
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 1782
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1783
+Running python script in foreground.
+inference: time->55.09ms, fps: 18.15, total fps: 4.00, frame obj: 1, total obj: 1784
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 1785
+Running python script in foreground.
+inference: time->56.95ms, fps: 17.56, total fps: 3.00, frame obj: 1, total obj: 1786
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1787
+Running python script in foreground.
+inference: time->56.76ms, fps: 17.62, total fps: 3.00, frame obj: 1, total obj: 1788
+Running python script in foreground.
+inference: time->58.45ms, fps: 17.11, total fps: 3.00, frame obj: 1, total obj: 1789
+Running python script in foreground.
+inference: time->57.23ms, fps: 17.47, total fps: 3.00, frame obj: 1, total obj: 1790
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 1791
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 1792
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1793
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 4.00, frame obj: 1, total obj: 1794
+Running python script in foreground.
+inference: time->55.01ms, fps: 18.18, total fps: 3.00, frame obj: 1, total obj: 1795
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 1796
+Running python script in foreground.
+inference: time->57.09ms, fps: 17.52, total fps: 3.00, frame obj: 1, total obj: 1797
+Running python script in foreground.
+inference: time->56.77ms, fps: 17.61, total fps: 4.00, frame obj: 1, total obj: 1798
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1799
+Running python script in foreground.
+inference: time->55.00ms, fps: 18.18, total fps: 4.00, frame obj: 1, total obj: 1800
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 1801
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 1802
+Running python script in foreground.
+inference: time->55.75ms, fps: 17.94, total fps: 4.00, frame obj: 1, total obj: 1803
+Running python script in foreground.
+inference: time->57.09ms, fps: 17.52, total fps: 3.00, frame obj: 1, total obj: 1804
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 1805
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 1806
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 1807
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1808
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 4.00, frame obj: 1, total obj: 1809
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1810
+Running python script in foreground.
+inference: time->55.99ms, fps: 17.86, total fps: 4.00, frame obj: 2, total obj: 1812
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 1814
+Running python script in foreground.
+inference: time->55.63ms, fps: 17.98, total fps: 3.00, frame obj: 1, total obj: 1815
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 3.00, frame obj: 3, total obj: 1818
+Running python script in foreground.
+inference: time->54.37ms, fps: 18.39, total fps: 4.00, frame obj: 1, total obj: 1819
+Running python script in foreground.
+inference: time->58.31ms, fps: 17.15, total fps: 4.00, frame obj: 1, total obj: 1820
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1822
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 1824
+Running python script in foreground.
+inference: time->56.41ms, fps: 17.73, total fps: 3.00, frame obj: 1, total obj: 1825
+Running python script in foreground.
+inference: time->55.91ms, fps: 17.89, total fps: 4.00, frame obj: 1, total obj: 1826
+Running python script in foreground.
+inference: time->54.87ms, fps: 18.22, total fps: 3.00, frame obj: 1, total obj: 1827
+Running python script in foreground.
+inference: time->54.84ms, fps: 18.23, total fps: 4.00, frame obj: 1, total obj: 1828
+Running python script in foreground.
+inference: time->56.63ms, fps: 17.66, total fps: 3.00, frame obj: 1, total obj: 1829
+Running python script in foreground.
+inference: time->58.52ms, fps: 17.09, total fps: 4.00, frame obj: 1, total obj: 1830
+Running python script in foreground.
+inference: time->61.19ms, fps: 16.34, total fps: 3.00, frame obj: 2, total obj: 1832
+Running python script in foreground.
+inference: time->62.06ms, fps: 16.11, total fps: 3.00, frame obj: 1, total obj: 1833
+Running python script in foreground.
+inference: time->62.24ms, fps: 16.07, total fps: 3.00, frame obj: 1, total obj: 1834
+Running python script in foreground.
+inference: time->61.95ms, fps: 16.14, total fps: 3.00, frame obj: 1, total obj: 1835
+Running python script in foreground.
+inference: time->61.00ms, fps: 16.39, total fps: 3.00, frame obj: 2, total obj: 1837
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 1839
+Running python script in foreground.
+inference: time->55.02ms, fps: 18.17, total fps: 3.00, frame obj: 1, total obj: 1840
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1841
+Running python script in foreground.
+inference: time->55.73ms, fps: 17.94, total fps: 4.00, frame obj: 1, total obj: 1842
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 1843
+Running python script in foreground.
+inference: time->58.83ms, fps: 17.00, total fps: 4.00, frame obj: 1, total obj: 1844
+Running python script in foreground.
+inference: time->62.52ms, fps: 16.00, total fps: 3.00, frame obj: 1, total obj: 1845
+Running python script in foreground.
+inference: time->60.86ms, fps: 16.43, total fps: 3.00, frame obj: 1, total obj: 1846
+Running python script in foreground.
+inference: time->62.02ms, fps: 16.12, total fps: 3.00, frame obj: 1, total obj: 1847
+Running python script in foreground.
+inference: time->61.96ms, fps: 16.14, total fps: 3.00, frame obj: 2, total obj: 1849
+Running python script in foreground.
+inference: time->55.99ms, fps: 17.86, total fps: 3.00, frame obj: 1, total obj: 1850
+Running python script in foreground.
+inference: time->56.68ms, fps: 17.64, total fps: 3.00, frame obj: 2, total obj: 1852
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 2, total obj: 1854
+Running python script in foreground.
+inference: time->56.66ms, fps: 17.65, total fps: 3.00, frame obj: 1, total obj: 1855
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 1856
+Running python script in foreground.
+inference: time->55.64ms, fps: 17.97, total fps: 4.00, frame obj: 1, total obj: 1857
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 1859
+Running python script in foreground.
+inference: time->56.89ms, fps: 17.58, total fps: 4.00, frame obj: 1, total obj: 1860
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1861
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 1863
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1864
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 1865
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 1866
+Running python script in foreground.
+inference: time->55.79ms, fps: 17.92, total fps: 4.00, frame obj: 1, total obj: 1867
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1868
+Running python script in foreground.
+inference: time->56.12ms, fps: 17.82, total fps: 4.00, frame obj: 1, total obj: 1869
+Running python script in foreground.
+inference: time->54.79ms, fps: 18.25, total fps: 3.00, frame obj: 1, total obj: 1870
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 1871
+Running python script in foreground.
+inference: time->54.44ms, fps: 18.37, total fps: 3.00, frame obj: 1, total obj: 1872
+Running python script in foreground.
+inference: time->55.95ms, fps: 17.87, total fps: 4.00, frame obj: 1, total obj: 1873
+Running python script in foreground.
+inference: time->54.51ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 1874
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 1875
+Running python script in foreground.
+inference: time->54.87ms, fps: 18.23, total fps: 4.00, frame obj: 1, total obj: 1876
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1878
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 1879
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1880
+Running python script in foreground.
+inference: time->55.77ms, fps: 17.93, total fps: 4.00, frame obj: 1, total obj: 1881
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 1882
+Running python script in foreground.
+inference: time->55.79ms, fps: 17.93, total fps: 4.00, frame obj: 1, total obj: 1883
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 1884
+Running python script in foreground.
+inference: time->55.50ms, fps: 18.02, total fps: 3.00, frame obj: 1, total obj: 1885
+Running python script in foreground.
+inference: time->56.15ms, fps: 17.81, total fps: 3.00, frame obj: 2, total obj: 1887
+Running python script in foreground.
+inference: time->54.92ms, fps: 18.21, total fps: 3.00, frame obj: 1, total obj: 1888
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 1889
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 1890
+Running python script in foreground.
+inference: time->55.40ms, fps: 18.05, total fps: 4.00, frame obj: 1, total obj: 1891
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 1892
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1893
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1894
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 3.00, frame obj: 1, total obj: 1895
+Running python script in foreground.
+inference: time->55.95ms, fps: 17.87, total fps: 4.00, frame obj: 2, total obj: 1897
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 1898
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 1899
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 3.00, frame obj: 1, total obj: 1900
+Running python script in foreground.
+inference: time->57.05ms, fps: 17.53, total fps: 4.00, frame obj: 1, total obj: 1901
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 1903
+Running python script in foreground.
+inference: time->56.74ms, fps: 17.63, total fps: 3.00, frame obj: 1, total obj: 1904
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 1906
+Running python script in foreground.
+inference: time->54.61ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1907
+Running python script in foreground.
+inference: time->54.62ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1908
+Running python script in foreground.
+inference: time->55.40ms, fps: 18.05, total fps: 4.00, frame obj: 1, total obj: 1909
+Running python script in foreground.
+inference: time->54.75ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 1910
+Running python script in foreground.
+inference: time->55.30ms, fps: 18.08, total fps: 4.00, frame obj: 1, total obj: 1911
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 4.00, frame obj: 1, total obj: 1912
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 1913
+Running python script in foreground.
+inference: time->55.91ms, fps: 17.89, total fps: 3.00, frame obj: 1, total obj: 1914
+Running python script in foreground.
+inference: time->55.94ms, fps: 17.88, total fps: 3.00, frame obj: 2, total obj: 1916
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 1917
+Running python script in foreground.
+inference: time->55.85ms, fps: 17.91, total fps: 3.00, frame obj: 2, total obj: 1919
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 1921
+Running python script in foreground.
+inference: time->55.46ms, fps: 18.03, total fps: 3.00, frame obj: 2, total obj: 1923
+Running python script in foreground.
+inference: time->56.14ms, fps: 17.81, total fps: 3.00, frame obj: 2, total obj: 1925
+Running python script in foreground.
+inference: time->54.73ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 1927
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 3.00, frame obj: 2, total obj: 1929
+Running python script in foreground.
+inference: time->55.31ms, fps: 18.08, total fps: 4.00, frame obj: 2, total obj: 1931
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 1933
+Running python script in foreground.
+inference: time->54.72ms, fps: 18.27, total fps: 4.00, frame obj: 2, total obj: 1935
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 4.00, frame obj: 2, total obj: 1937
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1939
+Running python script in foreground.
+inference: time->55.55ms, fps: 18.00, total fps: 3.00, frame obj: 2, total obj: 1941
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 1943
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 4.00, frame obj: 2, total obj: 1945
+Running python script in foreground.
+inference: time->57.56ms, fps: 17.37, total fps: 4.00, frame obj: 2, total obj: 1947
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 1949
+Running python script in foreground.
+inference: time->55.24ms, fps: 18.10, total fps: 4.00, frame obj: 2, total obj: 1951
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1953
+Running python script in foreground.
+inference: time->55.28ms, fps: 18.09, total fps: 4.00, frame obj: 2, total obj: 1955
+Running python script in foreground.
+inference: time->57.07ms, fps: 17.52, total fps: 4.00, frame obj: 2, total obj: 1957
+Running python script in foreground.
+inference: time->55.60ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 1959
+Running python script in foreground.
+inference: time->56.55ms, fps: 17.68, total fps: 4.00, frame obj: 2, total obj: 1961
+Running python script in foreground.
+inference: time->54.76ms, fps: 18.26, total fps: 4.00, frame obj: 2, total obj: 1963
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 3.00, frame obj: 2, total obj: 1965
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 1967
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 1969
+Running python script in foreground.
+inference: time->54.90ms, fps: 18.21, total fps: 4.00, frame obj: 2, total obj: 1971
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 1973
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.25, total fps: 4.00, frame obj: 2, total obj: 1975
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1977
+Running python script in foreground.
+inference: time->57.79ms, fps: 17.31, total fps: 4.00, frame obj: 2, total obj: 1979
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 1981
+Running python script in foreground.
+inference: time->55.48ms, fps: 18.02, total fps: 4.00, frame obj: 2, total obj: 1983
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 3.00, frame obj: 2, total obj: 1985
+Running python script in foreground.
+inference: time->55.68ms, fps: 17.96, total fps: 3.00, frame obj: 2, total obj: 1987
+Running python script in foreground.
+inference: time->54.80ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 1989
+Running python script in foreground.
+inference: time->54.91ms, fps: 18.21, total fps: 3.00, frame obj: 3, total obj: 1992
+Running python script in foreground.
+inference: time->55.65ms, fps: 17.97, total fps: 3.00, frame obj: 1, total obj: 1993
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 3.00, frame obj: 1, total obj: 1994
+Running python script in foreground.
+inference: time->55.60ms, fps: 17.99, total fps: 3.00, frame obj: 1, total obj: 1995
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 1997
+Running python script in foreground.
+inference: time->56.75ms, fps: 17.62, total fps: 4.00, frame obj: 1, total obj: 1998
+Running python script in foreground.
+inference: time->55.65ms, fps: 17.97, total fps: 3.00, frame obj: 1, total obj: 1999
+Running python script in foreground.
+inference: time->55.39ms, fps: 18.05, total fps: 4.00, frame obj: 1, total obj: 2000
+Running python script in foreground.
+inference: time->54.67ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 2001
+Running python script in foreground.
+inference: time->54.38ms, fps: 18.39, total fps: 3.00, frame obj: 1, total obj: 2002
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 2004
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 3.00, frame obj: 2, total obj: 2006
+Running python script in foreground.
+inference: time->55.45ms, fps: 18.03, total fps: 3.00, frame obj: 1, total obj: 2007
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 1, total obj: 2008
+Running python script in foreground.
+inference: time->58.07ms, fps: 17.22, total fps: 3.00, frame obj: 2, total obj: 2010
+Running python script in foreground.
+inference: time->56.78ms, fps: 17.61, total fps: 3.00, frame obj: 2, total obj: 2012
+Running python script in foreground.
+inference: time->55.80ms, fps: 17.92, total fps: 4.00, frame obj: 2, total obj: 2014
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 2016
+Running python script in foreground.
+inference: time->55.53ms, fps: 18.01, total fps: 3.00, frame obj: 2, total obj: 2018
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 3.00, frame obj: 2, total obj: 2020
+Running python script in foreground.
+inference: time->55.19ms, fps: 18.12, total fps: 4.00, frame obj: 2, total obj: 2022
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 2024
+Running python script in foreground.
+inference: time->58.87ms, fps: 16.99, total fps: 4.00, frame obj: 2, total obj: 2026
+Running python script in foreground.
+inference: time->54.41ms, fps: 18.38, total fps: 3.00, frame obj: 2, total obj: 2028
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 2030
+Running python script in foreground.
+inference: time->55.40ms, fps: 18.05, total fps: 3.00, frame obj: 1, total obj: 2031
+Running python script in foreground.
+inference: time->54.37ms, fps: 18.39, total fps: 3.00, frame obj: 2, total obj: 2033
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 1, total obj: 2034
+Running python script in foreground.
+inference: time->55.61ms, fps: 17.98, total fps: 4.00, frame obj: 1, total obj: 2035
+Running python script in foreground.
+inference: time->54.38ms, fps: 18.39, total fps: 4.00, frame obj: 2, total obj: 2037
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 2039
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 2041
+Running python script in foreground.
+inference: time->54.89ms, fps: 18.22, total fps: 3.00, frame obj: 2, total obj: 2043
+Running python script in foreground.
+inference: time->56.93ms, fps: 17.56, total fps: 3.00, frame obj: 2, total obj: 2045
+Running python script in foreground.
+inference: time->54.55ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 2047
+Running python script in foreground.
+inference: time->55.53ms, fps: 18.01, total fps: 4.00, frame obj: 2, total obj: 2049
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 2051
+Running python script in foreground.
+inference: time->54.68ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 2053
+Running python script in foreground.
+inference: time->55.93ms, fps: 17.88, total fps: 3.00, frame obj: 2, total obj: 2055
+Running python script in foreground.
+inference: time->59.06ms, fps: 16.93, total fps: 3.00, frame obj: 2, total obj: 2057
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 2059
+Running python script in foreground.
+inference: time->54.85ms, fps: 18.23, total fps: 4.00, frame obj: 2, total obj: 2061
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 2063
+Running python script in foreground.
+inference: time->56.51ms, fps: 17.70, total fps: 4.00, frame obj: 1, total obj: 2064
+Running python script in foreground.
+inference: time->54.63ms, fps: 18.31, total fps: 3.00, frame obj: 2, total obj: 2066
+Running python script in foreground.
+inference: time->54.69ms, fps: 18.29, total fps: 4.00, frame obj: 2, total obj: 2068
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 2070
+Running python script in foreground.
+inference: time->55.35ms, fps: 18.07, total fps: 3.00, frame obj: 1, total obj: 2071
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 3.00, frame obj: 2, total obj: 2073
+Running python script in foreground.
+inference: time->55.52ms, fps: 18.01, total fps: 3.00, frame obj: 2, total obj: 2075
+Running python script in foreground.
+inference: time->54.45ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 2076
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 2077
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 4.00, frame obj: 1, total obj: 2078
+Running python script in foreground.
+inference: time->55.53ms, fps: 18.01, total fps: 3.00, frame obj: 2, total obj: 2080
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.25, total fps: 3.00, frame obj: 2, total obj: 2082
+Running python script in foreground.
+inference: time->54.46ms, fps: 18.36, total fps: 3.00, frame obj: 2, total obj: 2084
+Running python script in foreground.
+inference: time->55.83ms, fps: 17.91, total fps: 3.00, frame obj: 2, total obj: 2086
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 2087
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 4.00, frame obj: 2, total obj: 2089
+Running python script in foreground.
+inference: time->55.46ms, fps: 18.03, total fps: 3.00, frame obj: 1, total obj: 2090
+Running python script in foreground.
+inference: time->54.48ms, fps: 18.36, total fps: 3.00, frame obj: 1, total obj: 2091
+Running python script in foreground.
+inference: time->55.43ms, fps: 18.04, total fps: 4.00, frame obj: 1, total obj: 2092
+Running python script in foreground.
+inference: time->54.36ms, fps: 18.39, total fps: 3.00, frame obj: 1, total obj: 2093
+Running python script in foreground.
+inference: time->54.40ms, fps: 18.38, total fps: 4.00, frame obj: 1, total obj: 2094
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 2095
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 4.00, frame obj: 1, total obj: 2096
+Running python script in foreground.
+inference: time->54.96ms, fps: 18.20, total fps: 4.00, frame obj: 1, total obj: 2097
+Running python script in foreground.
+inference: time->55.73ms, fps: 17.94, total fps: 4.00, frame obj: 1, total obj: 2098
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 2099
+Running python script in foreground.
+inference: time->55.44ms, fps: 18.04, total fps: 4.00, frame obj: 1, total obj: 2100
+Running python script in foreground.
+inference: time->54.74ms, fps: 18.27, total fps: 4.00, frame obj: 1, total obj: 2101
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 2103
+Running python script in foreground.
+inference: time->54.49ms, fps: 18.35, total fps: 4.00, frame obj: 1, total obj: 2104
+Running python script in foreground.
+inference: time->55.57ms, fps: 17.99, total fps: 4.00, frame obj: 2, total obj: 2106
+Running python script in foreground.
+inference: time->55.87ms, fps: 17.90, total fps: 4.00, frame obj: 2, total obj: 2108
+Running python script in foreground.
+inference: time->54.70ms, fps: 18.28, total fps: 4.00, frame obj: 1, total obj: 2109
+Running python script in foreground.
+inference: time->54.27ms, fps: 18.43, total fps: 4.00, frame obj: 1, total obj: 2110
+Running python script in foreground.
+inference: time->54.64ms, fps: 18.30, total fps: 4.00, frame obj: 2, total obj: 2112
+Running python script in foreground.
+inference: time->54.58ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 2113
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 2114
+Running python script in foreground.
+inference: time->55.10ms, fps: 18.15, total fps: 3.00, frame obj: 1, total obj: 2115
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 3.00, frame obj: 1, total obj: 2116
+Running python script in foreground.
+inference: time->54.40ms, fps: 18.38, total fps: 4.00, frame obj: 2, total obj: 2118
+Running python script in foreground.
+inference: time->58.54ms, fps: 17.08, total fps: 3.00, frame obj: 1, total obj: 2119
+Running python script in foreground.
+inference: time->54.78ms, fps: 18.26, total fps: 3.00, frame obj: 2, total obj: 2121
+Running python script in foreground.
+inference: time->54.77ms, fps: 18.26, total fps: 3.00, frame obj: 1, total obj: 2122
+Running python script in foreground.
+inference: time->54.81ms, fps: 18.24, total fps: 4.00, frame obj: 2, total obj: 2124
+Running python script in foreground.
+inference: time->55.69ms, fps: 17.96, total fps: 3.00, frame obj: 2, total obj: 2126
+Running python script in foreground.
+inference: time->55.57ms, fps: 18.00, total fps: 4.00, frame obj: 2, total obj: 2128
+Running python script in foreground.
+inference: time->54.53ms, fps: 18.34, total fps: 3.00, frame obj: 1, total obj: 2129
+Running python script in foreground.
+inference: time->55.30ms, fps: 18.08, total fps: 4.00, frame obj: 1, total obj: 2130
+Running python script in foreground.
+inference: time->54.35ms, fps: 18.40, total fps: 4.00, frame obj: 2, total obj: 2132
+Running python script in foreground.
+inference: time->56.68ms, fps: 17.64, total fps: 4.00, frame obj: 2, total obj: 2134
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 4.00, frame obj: 2, total obj: 2136
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 4.00, frame obj: 2, total obj: 2138
+Running python script in foreground.
+inference: time->54.40ms, fps: 18.38, total fps: 4.00, frame obj: 1, total obj: 2139
+Running python script in foreground.
+inference: time->55.00ms, fps: 18.18, total fps: 4.00, frame obj: 1, total obj: 2140
+Running python script in foreground.
+inference: time->54.65ms, fps: 18.30, total fps: 3.00, frame obj: 1, total obj: 2141
+Running python script in foreground.
+inference: time->54.90ms, fps: 18.22, total fps: 4.00, frame obj: 2, total obj: 2143
+Running python script in foreground.
+inference: time->54.52ms, fps: 18.34, total fps: 4.00, frame obj: 2, total obj: 2145
+Running python script in foreground.
+inference: time->54.71ms, fps: 18.28, total fps: 4.00, frame obj: 2, total obj: 2147
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 2148
+Running python script in foreground.
+inference: time->56.02ms, fps: 17.85, total fps: 4.00, frame obj: 2, total obj: 2150
+Running python script in foreground.
+inference: time->54.66ms, fps: 18.29, total fps: 3.00, frame obj: 1, total obj: 2151
+Running python script in foreground.
+inference: time->55.66ms, fps: 17.97, total fps: 4.00, frame obj: 1, total obj: 2152
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 4.00, frame obj: 2, total obj: 2154
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 4.00, frame obj: 2, total obj: 2156
+Running python script in foreground.
+inference: time->55.57ms, fps: 17.99, total fps: 4.00, frame obj: 1, total obj: 2157
+Running python script in foreground.
+inference: time->55.02ms, fps: 18.18, total fps: 4.00, frame obj: 1, total obj: 2158
+Running python script in foreground.
+inference: time->55.71ms, fps: 17.95, total fps: 4.00, frame obj: 2, total obj: 2160
+Running python script in foreground.
+inference: time->54.54ms, fps: 18.34, total fps: 3.00, frame obj: 2, total obj: 2162
+Running python script in foreground.
+inference: time->55.27ms, fps: 18.09, total fps: 4.00, frame obj: 2, total obj: 2164
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 2165
+Running python script in foreground.
+inference: time->55.78ms, fps: 17.93, total fps: 4.00, frame obj: 2, total obj: 2167
+Running python script in foreground.
+inference: time->54.56ms, fps: 18.33, total fps: 3.00, frame obj: 2, total obj: 2169
+Running python script in foreground.
+inference: time->54.47ms, fps: 18.36, total fps: 4.00, frame obj: 1, total obj: 2170
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.33, total fps: 4.00, frame obj: 1, total obj: 2171
+Running python script in foreground.
+inference: time->55.28ms, fps: 18.09, total fps: 3.00, frame obj: 1, total obj: 2172
+Running python script in foreground.
+inference: time->58.01ms, fps: 17.24, total fps: 3.00, frame obj: 1, total obj: 2173
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 2175
+Running python script in foreground.
+inference: time->55.62ms, fps: 17.98, total fps: 4.00, frame obj: 2, total obj: 2177
+Running python script in foreground.
+inference: time->55.51ms, fps: 18.02, total fps: 3.00, frame obj: 1, total obj: 2178
+Running python script in foreground.
+inference: time->54.57ms, fps: 18.32, total fps: 3.00, frame obj: 1, total obj: 2179
+Running python script in foreground.
+inference: time->58.70ms, fps: 17.04, total fps: 3.00, frame obj: 1, total obj: 2180
+Running python script in foreground.
+inference: time->58.03ms, fps: 17.23, total fps: 3.00, frame obj: 2, total obj: 2182
+Running python script in foreground.
+inference: time->57.92ms, fps: 17.27, total fps: 3.00, frame obj: 1, total obj: 2183
+Running python script in foreground.
+inference: time->57.97ms, fps: 17.25, total fps: 3.00, frame obj: 2, total obj: 2185
+Running python script in foreground.
+inference: time->55.38ms, fps: 18.06, total fps: 3.00, frame obj: 2, total obj: 2187
+Running python script in foreground.
+inference: time->54.50ms, fps: 18.35, total fps: 3.00, frame obj: 2, total obj: 2189
+Running python script in foreground.
+inference: time->54.60ms, fps: 18.31, total fps: 4.00, frame obj: 1, total obj: 2190
+Running python script in foreground.
+inference: time->54.59ms, fps: 18.32, total fps: 4.00, frame obj: 1, total obj: 2191
+Running python script in foreground.
+inference: time->63.95ms, fps: 15.64, total fps: 3.00, frame obj: 1, total obj: 2192
+Running python script in foreground.
+inference: time->58.45ms, fps: 17.11, total fps: 3.00, frame obj: 2, total obj: 2194
+Running python script in foreground.
+inference: time->57.62ms, fps: 17.36, total fps: 3.00, frame obj: 1, total obj: 2195
+Running python script in foreground.
+GST_ARGUS: Cleaning up
+CONSUMER: Done Success
+GST_ARGUS: Done Success
