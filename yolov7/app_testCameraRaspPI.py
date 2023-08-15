@@ -1,8 +1,8 @@
 import sys
 import cv2 
 import imutils
-from yoloDet import YoloTRT
-from JetsonCamera import Camera
+#from yoloDet import YoloTRT
+#from JetsonCamera import Camera
 
 """ 
 gstreamer_pipeline returns a GStreamer pipeline for capturing from the CSI camera
@@ -39,18 +39,18 @@ def gstreamer_pipeline(
     )
 
 # use path for library and engine file
-model = YoloTRT(library="yolov7/build/libmyplugins.so", engine="yolov7/build/yolov7-tiny.engine", conf=0.5, yolo_ver="v7")
+#model = YoloTRT(library="yolov7/build/libmyplugins.so", engine="yolov7/build/yolov7-tiny.engine", conf=0.5, yolo_ver="v7")
 
 #cap = cv2.VideoCapture("videos/testvideo.mp4")
 cap = cv2.VideoCapture(gstreamer_pipeline(flip_method=2), cv2.CAP_GSTREAMER)
 
 while True:
     ret, frame = cap.read()
-    frame = imutils.resize(frame, width=600)
-    detections, t = model.Inference(frame)
-    for obj in detections:
-    	print(obj['class'], obj['conf'], obj['box'])
-    	print("FPS: {} sec".format(1/t))
+    #frame = imutils.resize(frame, width=600)
+    #detections, t = model.Inference(frame)
+    #for obj in detections:
+    #	print(obj['class'], obj['conf'], obj['box'])
+    #	print("FPS: {} sec".format(1/t))
     cv2.imshow("Output", frame)
     key = cv2.waitKey(1)
     if key == ord('q'):
