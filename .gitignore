@@ -3,5 +3,5 @@
 */*.wts
 */*.ppm
 *idea*
-yolov7/output/*
-yolov7/LOG/*
+yolov7/output
+yolov7/LOG
